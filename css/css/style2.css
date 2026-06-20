@@ -1,9 +1,10 @@
 h1{
-text-align: center;
-line-height: 100px;
-width: 100%;
-height: 100px;
-background-color:aqua;
+    color: red;
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
 }
 p{
     
