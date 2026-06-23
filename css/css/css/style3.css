@@ -1,0 +1,63 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: deepskyblue;
+    text-decoration: underline; 
+    border-width: 5px;
+    border-color: darkcyan;
+    border-style: outset;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right:10px;
+    padding-left: 2%;
+   
+    
+}
+p{
+    color:rgb(2, 29, 53);
+    background-color: deepskyblue;
+    text-decoration: underline; 
+    border-width: 5px;
+    border-color: darkcyan;
+    border-style: ridge;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right:10px;
+    margin-right: 568px;
+  
+    
+}
+h1{
+    
+    color:aliceblue;
+    background-color: deepskyblue;
+    text-decoration: overline; 
+    border-width: 5px;
+    border-color: darkcyan;
+    border-style: ridge;
+    border-top-right-radius: 20px;
+    margin-right: 78%;
+
+}
+
+h2{
+    color:rgb(1, 11, 19);
+    background-color: deepskyblue;
+    text-decoration: overline; 
+    border-width: 5px;
+    border-color: #228b00;
+    border-style: ridge;
+    border-bottom-right-radius: 20px;
+    margin-right: 78%;
+}
+h4{
+    color: rgb(0, 0, 0);
+    background-color: deepskyblue;
+    text-decoration: underline; 
+    border-width: 5px;
+    border-color: darkcyan;
+    border-style: ridge;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right:10px;
+    margin-right:65%;
+}
