@@ -4,10 +4,9 @@ body{
     justify-content: center;
 }
 h1{
-    width: 200px;
+    width: 500px;
     height: 200px;
-    background-color: blueviolet;
-    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(255, 255, 255);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -33,7 +32,7 @@ h1{
     margin-left: 20px;
 }
 h4{
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 20px; 
 }
 td{
@@ -41,12 +40,85 @@ td{
 }
 .btn{
     position: absolute;
-    top: 290px;
-    left: 415px;
+    top: 298px;
+    left: 255px;
     padding: 10px 20px;
-    background-color: blueviolet;
-    color: white;
+    background-color: rgb(232, 231, 233);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.btn1{
+    position: absolute;
+    top: 298px;
+    left: 650px;
+    padding: 10px 20px;
+    background-color: rgb(232, 231, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn2{
+    position: absolute;
+    top: 298px;
+    left: 1040px;
+    padding: 10px 20px;
+    background-color: rgb(232, 231, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn3{
+    position: absolute;
+    top: 695px;
+    left: 255px;
+    padding: 10px 20px;
+    background-color: rgb(232, 231, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn4{
+    position: absolute;
+    top: 690px;
+    left: 650px;
+    padding: 10px 20px;
+    background-color: rgb(232, 231, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn5{
+    position: absolute;
+    top: 690px;
+    left: 1040px;
+    padding: 10px 20px;
+    background-color: rgb(232, 231, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.creative-course{
+    position: absolute;
+    top: 20px;
+    left: 830px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.table{
+    position: absolute;
+    top: 190px;
+    left: 330px;
 }
