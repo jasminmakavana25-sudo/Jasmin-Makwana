@@ -9,14 +9,15 @@ h1{
 .box{
    
     width: 300px;
-    height: 400px;
+    height: 350px;
     background-color: rgb(1, 6, 255);
     border-radius: 20px;
     overflow: hidden;
 }
 .write h3{
     color: white;
+    margin-left: 20px;
 }
-.button{
-    margin-right: 20px;
+{
+    margin-left: 20px;
 }
