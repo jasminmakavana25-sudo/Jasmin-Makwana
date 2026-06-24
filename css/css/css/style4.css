@@ -1,0 +1,52 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box{
+   
+    width: 360px;
+    height: 365px;
+    background-color: rgb(1, 6, 255);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.image{
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    width: 360px;
+    height: 210px;
+}
+.write h3{
+    color: white;
+    margin-left: 20px;
+}
+h4{
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+td{
+    margin-right: 20px;
+}
+.btn{
+    position: absolute;
+    top: 290px;
+    left: 415px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
