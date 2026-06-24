@@ -1,9 +1,9 @@
 body{
     color: rgb(0, 0, 0);
-    background-color: deepskyblue;
+    background-color: #ff8c01;
     text-decoration: underline; 
     border-width: 5px;
-    border-color: darkcyan;
+    border-color: #ff8f00;
     border-style: outset;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;

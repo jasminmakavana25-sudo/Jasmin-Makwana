@@ -1,0 +1,35 @@
+
+h1{
+    color: blueviolet;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+.bgcolor{
+  
+    background-color: aquamarine;
+    width: 16%;
+} 
+.box{
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#color{
+    color:blueviolet;
+}
+.image{
+    width: 100%;
+    height: 200px;  
+    background-color: aquamarine;
+}
+.write{
+    width: 100%;
+    height: 200px;
+    background-color:aquamarine;
+}
+.write h3{
+    margin:0px;
+    padding: 20px;
+}
