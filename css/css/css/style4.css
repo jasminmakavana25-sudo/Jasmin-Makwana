@@ -1,5 +1,5 @@
 h1{
-    color: aqua;
+    color: rgb(0, 0, 0);
     background-color:rgb(255, 255, 255);
     text-align: center;
 }
@@ -21,7 +21,7 @@ h1{
     align-items: right;
     display: flex;
     justify-content: right;
-    width: 360px;
+    width: 426px;
     height: 210px;
 }
 .write h3{
