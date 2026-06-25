@@ -1,24 +1,21 @@
-body{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 h1{
-    width: 500px;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
-    padding-left: 10px;
-    padding-right: 10px;
+    color: aqua;
+    background-color:cadetblue;
+    text-align: center;
 }
 .box{
    
-    width: 360px;
+    width: 28.33%;
     height: 365px;
     background-color: rgb(1, 6, 255);
     border-radius: 20px;
     overflow: hidden;
-    margin-left: 30px;
+    margin-left: 45px;
     margin-bottom: 30px;
+    float: left;
+
+
+
 }
 .image{
     align-items: right;
@@ -32,93 +29,34 @@ h1{
     margin-left: 20px;
 }
 h4{
-    margin-left: 30px;
-    margin-top: 20px; 
-}
-td{
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 65px; 
 }
 .btn{
+    width: 90px;
+    height: 20px;
     position: absolute;
-    top: 298px;
-    left: 285px;
+    line-height: 25px;
     padding: 10px 20px;
-    background-color: rgb(232, 231, 233);
-    color: rgb(0, 0, 0);
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-}
-.btn1{
-    position: absolute;
-    top: 298px;
-    left: 685px;
-    padding: 10px 20px;
-    background-color: rgb(232, 231, 233);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-.btn2{
-    position: absolute;
-    top: 298px;
-    left: 1085px;
-    padding: 10px 20px;
-    background-color: rgb(232, 231, 233);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-.btn3{
-    position: absolute;
-    top: 695px;
-    left: 285px;
-    padding: 10px 20px;
-    background-color: rgb(232, 231, 233);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-.btn4{
-    position: absolute;
-    top: 690px;
-    left: 685px;
-    padding: 10px 20px;
-    background-color: rgb(232, 231, 233);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-.btn5{
-    position: absolute;
-    top: 690px;
-    left: 1085px;
-    padding: 10px 20px;
-    background-color: rgb(232, 231, 233);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
+    border: 1px solid white;
+    margin: 25px;
+    margin-top: 285px;
 }
 .creative-course{
     position: absolute;
     top: 20px;
-    left: 830px;
+    left: 540px;
     font-size: 24px;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
-.table{
+.Offered Courses{
     position: absolute;
     top: 190px;
-    left: 330px;
+    left: 25px;
 }
