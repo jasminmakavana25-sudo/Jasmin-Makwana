@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
+ul ul{
+    display: none;
+}
+ul ul li{
+    float:none;
+}
+ul ul li a{
+    background-color: aqua;
+        color: rgb(0, 0, 0);
+        
+}
+ul li:hover ul{
+    display: block;
+}
+.menu ul:hover li a{
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
