@@ -33,12 +33,13 @@ ul ul li a{
 ul li:hover ul{
     display: block;
 }
-menu ul li a{
-    background-color: cadetblue;
-}
-UL LI:hover UL{
+.menu ul:hover li a{
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
     display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
 }
- ul ul li a{
-    background-color: violet;
- }
