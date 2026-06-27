@@ -3,8 +3,13 @@ h1{
     text-align: center;
 }
 .box{
+<<<<<<< HEAD
+    width: 28.33%;
+    height: 100px;
+=======
     width: 12.33%;
     height: 500px;
+>>>>>>> 71af4feba4cf4fb51289d26630455e571277bff5
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     /* border: 50px ; */
