@@ -23,15 +23,15 @@ ul li a{
     text-align: center; */
 }
 .Company{
-    width: 150%;
-    height: 500px;
-    background-color: cadetblue;
-    display:none;
+    width: 100%;
+    height: 410px;
+    background-color: rgb(0, 247, 255);
+    display: none;
     position: absolute;
     left: 0px;
 }
 .Megamenu{
-    width: 100px;
+    width: 110px;
     height: 380px;
     background-color: rgb(0, 247, 255);
     float: left;
@@ -56,9 +56,9 @@ ul li a{
 .Megamenu h3{
     color: black;
     margin-bottom: 15px;
-    margin-right: -5px;
+    margin-right: -35px;
     /* padding: 20px; */
-    margin-left: -5px;
+    margin-left: 0px;
 }
 
 ul li:hover .Company{
