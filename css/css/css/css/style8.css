@@ -1,18 +1,66 @@
 *{
-
+margin: 0px;
+padding: 0px;
 }
 ul{
-
+    background-color: black;
+    position: relative;
 }
-ul ul{
-
+ul li{
+    /* text-decoration: none; */
+    list-style: none;
+    float: left;
+    margin: -1px;
 }
-ul ul li{
-
-}
-ul ul li a{
+ul li a{
     text-decoration: none;
+    padding: 10px 25px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    display: block;
+    /* line-height: 50px;
+    text-align: center; */
+}
+.Company{
     width: 150%;
-    height: 50px;
-    background-color: aqua ;
+    height: 500px;
+    background-color: cadetblue;
+    display:none;
+    position: absolute;
+    left: 0px;
+}
+.Megamenu{
+    width: 100px;
+    height: 380px;
+    background-color: rgb(0, 247, 255);
+    float: left;
+    padding: 15px;
+   
+}
+.Megamenu ul{
+
+}
+.Megamenu ul li{
+
+
+}
+.Megamenu ul li a{
+    background-color :rgb(0, 247, 255);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 10px 6px;
+    float: none;
+    /* margin-top: 5px; */
+}
+.Megamenu h3{
+    color: black;
+    margin-bottom: 15px;
+    margin-right: -5px;
+    /* padding: 20px; */
+    margin-left: -5px;
+}
+
+ul li:hover .Company{
+    display: block;
 }
