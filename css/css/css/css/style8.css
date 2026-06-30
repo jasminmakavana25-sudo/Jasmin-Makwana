@@ -31,11 +31,12 @@ ul li a{
     left: 0px;
 }
 .Megamenu{
-    width: 23`5px;
-    height: 380px;
+    width: 270px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     float: left;
     padding: 15px;
+    margin-left: -25px;
    
 }
 .Megamenu ul{
@@ -49,18 +50,30 @@ ul li a{
     background-color :rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin: 0px;
-    padding: 10px 6px;
+    padding: 10px 40px;
     float: none;
-    /* margin-top: 5px; */
+    text-align: left;
+    margin-left: 5px;
 }
 .Megamenu h3{
     color: black;
     margin-bottom: 15px;
     margin-right: -35px;
     /* padding: 20px; */
-    margin-left: 0px;
+    margin-left: 35px;
 }
 
 ul li:hover .Company{
     display: block;
+}
+.Megamenu1{
+    width: 180px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding: 15px;
+    margin-left: 140px;
+}
+.gang{
+    margin-left: -25px;
 }
