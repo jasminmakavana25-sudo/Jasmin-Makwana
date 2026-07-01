@@ -14,17 +14,17 @@ ul li{
 ul li a{
     text-decoration: none;
     padding: 10px 25px;
-    background-color:  rgb(0, 174, 255);;
-    color: rgb(0, 0, 0);
+    background-color:  rgb(33, 72, 90);;
+    color: rgb(255, 255, 255);
     margin: 5px;
     display: block;
     /* line-height: 50px;
     text-align: center; */
 }
 .Company{
-    width: 100%;
+    width: 1240px;
     height: 380px;
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(33, 72, 90);
     display: none;
     position: absolute;
     left: 0px;
@@ -32,7 +32,7 @@ ul li a{
 .Megamenu{
     width: 300px;
     height: 410px;
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(33, 72, 90);
     float: left;
     padding: 5px;
 }
@@ -43,13 +43,13 @@ ul li a{
 width: 100%;
 }
 .Megamenu ul li a{
-    background-color :rgb(0, 174, 255);
-    color: rgb(0, 0, 0);
+    background-color :rgb(33, 72, 90);
+    color: rgb(255, 255, 255);
     margin: 0px;
     padding: 9px 5px;
 }
 .Megamenu h3{
-    color: black;
+    color: white;
     margin-bottom: 0px;
 }
 
