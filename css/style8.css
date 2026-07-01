@@ -31,7 +31,7 @@ ul li a{
     left: 0px;
 }
 .Megamenu{
-    width: 235px;
+    width: 20%;
     height: 380px;
     background-color: rgb(255, 255, 255);
     float: left;
@@ -52,6 +52,11 @@ width: 100%;
     padding: 10px 6px;
     float: none;
     /* margin-top: 5px; */
+}
+.Megamenu ul li a i{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
 }
 .Megamenu h3{
     color: black;
