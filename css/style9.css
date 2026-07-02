@@ -4,11 +4,11 @@
 }
 .w100{
     width: 100%;
-    height: 1000px;
+    height: 500px;
     background-color: darkturquoise;
 }
 .w25{
-    width: 5%;
+    width: 10%;
     height: 300px;
     background-color: teal;
     display: flex;
@@ -23,9 +23,10 @@
     flex-direction: column;
 
     flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
-    gap: 6px;
+    /* column-gap: 15px; */
+    /* row-gap: 10px; */
+    gap: 15px;
+    justify-content: center;
 
 
     justify-content: space-between; 
@@ -33,10 +34,11 @@
     JUSTIFY-CONTENT: space-evenly;
 
     JUSTIFY-CONTENT: center;
-    JUSTIFY-CONTENT: flex-start;
-    JUSTIFY-CONTENT: flex-end;
-    JUSTIFY-CONTENT: end;
-    align-content: flex-start;
+    /* JUSTIFY-CONTENT: flex-start; */
+    /* JUSTIFY-CONTENT: flex-end; */
+    /* JUSTIFY-CONTENT: end; */
+    /* justify-content: right; */
+    align-content: center;
 }
 .height{
     height: 400px;
