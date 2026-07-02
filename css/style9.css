@@ -4,5 +4,40 @@
 }
 .w100{
     width: 100%;
+    height: 1000px;
+    background-color: darkturquoise;
+}
+.w25{
+    width: 5%;
+    height: 300px;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
     height: 500px;
+
+    flex-direction: column-reverse;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 6px;
+
+
+    justify-content: space-between; 
+    JUSTIFY-CONTENT: space-around;
+    JUSTIFY-CONTENT: space-evenly;
+
+    JUSTIFY-CONTENT: center;
+    JUSTIFY-CONTENT: flex-start;
+    JUSTIFY-CONTENT: flex-end;
+    JUSTIFY-CONTENT: end;
+    align-content: flex-start;
+}
+.height{
+    height: 400px;
 }
