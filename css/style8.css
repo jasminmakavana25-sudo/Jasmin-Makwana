@@ -15,7 +15,7 @@ ul li{
 ul li a{
     text-decoration: none;
     padding: 10px 25px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(27, 123, 136);
     color: rgb(0, 0, 0);
     margin: 5px;
     display: block;
@@ -33,7 +33,7 @@ ul li a{
 .Megamenu{
     width: 20%;
     height: 380px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(27, 123, 136);
     float: left;
     padding: 15px;
  
@@ -47,7 +47,7 @@ width: 100%;
 
 }
 .Megamenu ul li a{
-    background-color :rgb(255, 255, 255);
+    background-color :rgb(27, 123, 136);
     color: rgb(0, 0, 0);
     margin: 0px;
     padding: 10px 6px;
@@ -71,8 +71,12 @@ ul li:hover .Company{
     display: block;
 }
 .Megamenu1{
-    width: 110px;
-    margin-left: 179px;
+   width: 14%;
+    height: 380px;
+    background-color: rgb(27, 123, 136);
+    float: left;
+    padding: 15px;
+ margin-left: -15px;
 }
 .Company2{
     width: 100%;
