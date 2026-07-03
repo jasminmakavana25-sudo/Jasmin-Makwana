@@ -1,16 +1,9 @@
 body{
     color: rgb(0, 0, 0);
-<<<<<<< HEAD
     background-color: #00eeff;
     text-decoration: underline; 
     border-width: 5px;
     border-color: #008b63;
-=======
-    background-color: #ff8c01;
-    text-decoration: underline; 
-    border-width: 5px;
-    border-color: #ff8f00;
->>>>>>> b852fe251b490b2e2756fc5dca4988caccf2f5a5
     border-style: outset;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
