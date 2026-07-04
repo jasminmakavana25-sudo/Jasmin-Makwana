@@ -3,27 +3,27 @@ h1{
     text-align: center;
 }
 .megabox{
-    margin-left: 110px;
+    margin-left: 65px; 
+  
 }
-.box{
+.flex{
+    display: flex;
     width: 33.33%;
     height: 350px;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     /* border: 50px ; */
     /* border-radius: 50px 50px 50px 50px; */
-    float:left
+    float:left;
+    flex-direction: column;
+    justify-content: center;
 }
 .image{
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    margin-left:110px ;
+    margin-left:110px;
    
-}
-.descriptionh4{
-    color: aqua;
-    background-color: black;
 }
 .write h3{
     color: black;
@@ -55,7 +55,7 @@ h1{
     text-align: center;
     margin-top: -70px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: -5px;
 }
 .write4{
     width: 320px;
@@ -64,4 +64,12 @@ h1{
     text-align: center;
     margin-left: 10px;
     margin-top: -75px;
+}
+.image1{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left:110px;
+    margin-top: 15px;
 }
