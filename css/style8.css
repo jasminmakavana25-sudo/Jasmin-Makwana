@@ -15,10 +15,11 @@ ul li{
 ul li a{
     text-decoration: none;
     padding: 10px 25px;
-    background-color: rgb(27, 123, 136);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin: 5px;
     display: block;
+    float: none;
     /* line-height: 50px;
     text-align: center; */
 }
@@ -33,7 +34,7 @@ ul li a{
 .Megamenu{
     width: 20%;
     height: 380px;
-    background-color: rgb(27, 123, 136);
+    background-color: rgb(255, 255, 255);
     float: left;
     padding: 15px;
  
@@ -47,7 +48,7 @@ width: 100%;
 
 }
 .Megamenu ul li a{
-    background-color :rgb(27, 123, 136);
+    background-color :rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin: 0px;
     padding: 10px 6px;
@@ -71,12 +72,12 @@ ul li:hover .Company{
     display: block;
 }
 .Megamenu1{
-   width: 13%;
+   width: 15%;
     height: 380px;
-    background-color: rgb(27, 123, 136);
+    background-color: rgb(255, 255, 255);
     float: left;
     padding: 15px;
- margin-left: -15px;
+ margin-left: -38px;
 }
 .Company2{
     width: 100%;
@@ -90,3 +91,9 @@ ul li:hover .Company{
 ul li:hover .Company2{      
     display: block;
 }
+/* .contect h3{
+
+}
+.email h3 i{
+    float: left;
+} */
