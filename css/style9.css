@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+margin: 0px;
     padding: 0px;
 }
 .w100{
@@ -18,10 +18,10 @@
   
 }   
 .flex{
+    flex-direction: row;
     display: flex;
     height: 100px;
     /* flex-direction: column; */
-    flex-direction: row;
     /* flex-direction: row-reverse; */
     flex-wrap: nowrap;
     /* flex-wrap: wrap-reverse; */
@@ -30,7 +30,7 @@
     row-gap: 10px;
     gap: 10px;
 
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
     /* justify-content: left; */
     /* justify-content: start; */
 
