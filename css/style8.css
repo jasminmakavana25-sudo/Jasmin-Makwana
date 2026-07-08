@@ -78,7 +78,7 @@ ul li:hover .w100{
     background-color: rgb(255, 255, 255);
     float: left;
     padding: 15px;
- margin-left: -38px;
+    margin-left: -38px;
 }
 .Company2{
     width: 100%;
@@ -91,24 +91,4 @@ ul li:hover .w100{
 }
 ul li:hover .Company2{      
     display: block;
-}
-.w100{
-      width: 100%;
-}
-.w25{
-    width: 10%;
-    height: 20px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: left;
-    align-items: left;
-  
-}
-.flex {
-    display: flex;
-    height: 5px;
-    flex-direction: row;
-    row-gap: 10px;
-    margin-left:10px ;
-  
 }
