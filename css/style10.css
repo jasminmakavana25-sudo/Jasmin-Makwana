@@ -53,8 +53,8 @@ padding: 0px;
     height: 50%;
 }
 *{
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 ul{
     background-color: black;
@@ -145,4 +145,7 @@ ul li:hover .Company{
 }
 ul li:hover .Company2{      
     display: block;
+}
+.web{
+    
 }
