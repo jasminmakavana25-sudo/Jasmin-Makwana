@@ -56,7 +56,7 @@ padding: 0px;
     height: 100%;
 }
 .centainer{
-    width: 100%;
+    width: 99%;
     height: 60px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -68,7 +68,7 @@ padding: 0px;
 .icon{
     width: 100px;
     height: 100%;   
-    margin-left: -200px;
+    margin-left: -300px;
 }
 *{
     margin: 0px;
@@ -108,7 +108,7 @@ ul li a{
     left: 0px;
     margin-top: 15px;  
     margin-left: -235px;
-    padding-top: 10px;
+    padding-top: 15px;
     
 }
 .Megamenu{
@@ -116,7 +116,7 @@ ul li a{
     height: 380px;
     background-color: rgb(255, 255, 255);
     float: left;
-    padding: 15px;
+    padding: 0px;
  
    
 }
