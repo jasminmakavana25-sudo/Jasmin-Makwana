@@ -1,7 +1,7 @@
-*{
+/* *{
 margin: 0px;
 padding: 0px;
-}
+} */
 .w100{
     width: 100%;
     height: 65px;
@@ -10,7 +10,7 @@ padding: 0px;
 
 .flex{
     display: flex;
-    height: 100px;
+    height: 65px;
     flex-direction: row; 
     row-gap: 50px;
     flex-wrap: wrap;
@@ -25,7 +25,7 @@ padding: 0px;
     color: rgb(255, 255, 255);
     display: flex;
     font-size: 19px;
-    gap: 5px;
+    
     justify-content: left;
     align-items: center;
   
@@ -53,7 +53,22 @@ padding: 0px;
   
 }
 .height{
-    height: 50%;
+    height: 100%;
+}
+.centainer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.icon{
+    width: 100px;
+    height: 100%;   
+    margin-left: -200px;
 }
 *{
     margin: 0px;
@@ -81,15 +96,19 @@ ul li a{
     /* line-height: 50px;
     text-align: center; */ 
 }
+.box{
+    margin-right: 10px;
+}
 .Company{
-    width: 100%;
+    width: 125%;
     height: 410px;
     background-color: rgb(255, 255, 255);
     display: none;
     position: absolute;
     left: 0px;
-    margin-top: 10px;  
-    margin-left: -10px;
+    margin-top: 15px;  
+    margin-left: -235px;
+    padding-top: 10px;
     
 }
 .Megamenu{
@@ -132,38 +151,24 @@ width: 100%;
 ul li:hover .Company{
     display: block;
 }
+.Company2{
+    width: 15%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -2px;
+}
 .Megamenu1{
-   width: 15%;
+    width: 145%;
     height: 380px;
     background-color: rgb(255, 255, 255);
     float: left;
     padding: 15px;
     margin-left: -38px;
 }
-.Company2{
-    width: 100%;
-    height: 10px;
-    background-color: rgb(255, 255, 255);
-    display: none;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: -5px;
-}
+
 ul li:hover .Company2{      
     display: block;
-}
-.centainer{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-.icon{
-    width: 100px;
-    height: 100%;   
-    margin-left: -200px;
 }
