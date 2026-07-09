@@ -1,16 +1,16 @@
-*{
+/* *{
 margin: 0px;
 padding: 0px;
-}
+} */
 .w100{
     width: 100%;
-    height: 60px;
+    height: 65px;
     background-color: rgb(81, 116, 230);
 }
 
 .flex{
     display: flex;
-    height: 100px;
+    height: 65px;
     flex-direction: row; 
     row-gap: 50px;
     flex-wrap: wrap;
@@ -22,9 +22,10 @@ padding: 0px;
     width: 100%;
     /* height: 50px; */
     background-color: rgb(81, 116, 230);
+    color: rgb(255, 255, 255);
     display: flex;
     font-size: 19px;
-    gap: 5px;
+    
     justify-content: left;
     align-items: center;
   
@@ -33,6 +34,7 @@ padding: 0px;
     width: 100%;
     /* height: 50px; */
     background-color: rgb(81, 116, 230);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +43,7 @@ padding: 0px;
 .w28{
     width: 100%;
     background-color: rgb(81, 116, 230);
+    color: rgb(255, 255, 255);
     display: flex;
     gap: 5px;
     font-size: 19px;
@@ -49,14 +52,29 @@ padding: 0px;
   
 }
 .height{
-    height: 50%;
+    height: 100%;
+}
+.centainer{
+    width: 99%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.icon{
+    width: 100px;
+    height: 100%;   
+    margin-left: -300px;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
 ul{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     position: relative;
 }
 ul li{
@@ -64,6 +82,7 @@ ul li{
     list-style: none;
     float: left;
     margin: -1px;
+   
 }
 ul li a{
     text-decoration: none;
@@ -74,7 +93,10 @@ ul li a{
     display: block;
     float: none;
     /* line-height: 50px;
-    text-align: center; */
+    text-align: center; */ 
+}
+.box{
+    margin-right: 10px;
 }
 .Company{
     width: 90%;
@@ -84,14 +106,17 @@ ul li a{
     
     position: absolute;
     left: 0px;
-    margin-top: 10px;  
+    margin-top: 15px;  
+    margin-left: -235px;
+    padding-top: 15px;
+    
 }
 .Megamenu{
     width: 22%;
     height: 380px;
     background-color: rgb(187, 43, 43);
     float: left;
-    padding: 15px;
+    padding: 0px;
  
    
 }
@@ -122,30 +147,26 @@ width: 100%;
     /* padding: 20px; */
     margin-left: 0px;
 }
-
-ul li:hover .Company{
+ul li:hover .Megamenu{
     display: block;
 }
+.Company2{
+    width: 15%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -2px;
+}
 .Megamenu1{
-   width: 20%;
+    width: 145%;
     height: 380px;
     background-color: rgb(255, 255, 255);
     float: left;
     padding: 15px;
     margin-left: -38px;
 }
-.Company2{
-    width: 70%;
-    height: 10px;
-    background-color: rgb(255, 255, 255);
-    display: none;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: -5px;
-}
 ul li:hover .Company2{      
     display: block;
-}
-.web{
-    
 }
