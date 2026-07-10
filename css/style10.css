@@ -181,10 +181,18 @@ ul li:hover .Megamenu{
     height: 180px;
     background-color: rgb(255, 255, 255);
     float: left;
-    padding: 15px;
-    margin-left: -10px; 
+    padding: 5px;
+    margin-left: -30px; 
     padding-left: 0px;
     padding-right: 10px;
+}
+.Megamenu1 li a{
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0;
+    display: block;
 }
 .move{
      width: 80%;
