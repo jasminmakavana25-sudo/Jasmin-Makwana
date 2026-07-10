@@ -5,7 +5,7 @@ padding: 0px;
 .w100{
     width: 100%;
     height: 65px;
-    background-color: rgb(81, 116, 230);
+    background-color: rgb(18, 41, 115);
 }
 
 .flex{
@@ -21,7 +21,7 @@ padding: 0px;
 .w26{
     width: 100%;
     /* height: 50px; */
-    background-color: rgb(81, 116, 230);
+    background-color: rgb(18, 41, 115);
     color: rgb(255, 255, 255);
     display: flex;
     font-size: 19px;
@@ -33,7 +33,7 @@ padding: 0px;
 .w27{
     width: 100%;
     /* height: 50px; */
-    background-color: rgb(81, 116, 230);
+    background-color: rgb(18, 41, 115);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ padding: 0px;
 }
 .w28{
     width: 100%;
-    background-color: rgb(81, 116, 230);
+    background-color: rgb(18, 41, 115);
     color: rgb(255, 255, 255);
     display: flex;
     gap: 5px;
@@ -89,14 +89,14 @@ ul li a{
     height: 30px;
     text-decoration: none;
     margin-bottom: 20px;
-    margin-left: 35px;
+    margin-left: 30px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     /* margin: 5px; */
     display: block;
     padding-left: 10px;
     float: none;
-    padding-top: 10px;
+    padding-top: 20px;
     /* line-height: 50px;
     text-align: center; */ 
 }
@@ -166,7 +166,7 @@ ul li:hover .Megamenu{
 }
 .Company2{
     width: 15%;
-    height: 10px;
+    height: 4px;
     background-color: rgb(255, 255, 255);
     display: none;
     position: absolute;
@@ -178,7 +178,7 @@ ul li:hover .Megamenu{
 }
 .Megamenu1{
     width: 145%;
-    height: 380px;
+    height: 180px;
     background-color: rgb(255, 255, 255);
     float: left;
     padding: 15px;
@@ -186,9 +186,38 @@ ul li:hover .Megamenu{
     padding-left: 0px;
     padding-right: 10px;
 }
+.move{
+     width: 80%;
+    height: 30px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: block;
+    padding-left: 0px;
+    float: none;
+    padding-top: 0px;
+}
 ul li:hover .Company2{      
     display: block;
 }
 .image{
     margin-top: 10px;
+}
+.containor1{
+    width: 100%;
+    height: 1000px;
+    background-color: brown;
+    margin-top: 10px;
+}
+.Megamenu2{
+    width: 110%;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding: 0px;
+    margin-left: -5px; 
+    padding-left: 0px;
+    padding-right: 0px;
 }
