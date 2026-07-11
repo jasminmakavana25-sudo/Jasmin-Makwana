@@ -112,22 +112,20 @@ ul li a{
     height: 410px;
     background-color: rgb(255, 255, 255);
     display: none;
-    margin: 10px;
+    margin: 5px;
     position: absolute;
-    left: 0px;
     margin-top: 15px;  
-    margin-left: -228px;
+    margin-left: -262px;
     padding-top: 15px;
     
 }
 .Megamenu{
 
     width: 29%;
-    height: 530px;
+    height: 415px;
     background-color: rgb(255, 255, 255);
     float: left;
     margin: -28px;
-    padding: 0px;
     padding-left: 10px;
     margin-left: -30px;
 }
@@ -139,6 +137,7 @@ ul li:hover .Company{
 }
 .Megamenu ul li{
 width: 100%;
+height: 35px;
 
 }
 .Megamenu ul li a{
@@ -159,7 +158,6 @@ width: 100%;
     margin-bottom: 15px;
     margin-right: -35px;
     /* padding: 20px; */
-    margin-left: 0px;
 }
 ul li:hover .Megamenu{
     display: block;
@@ -178,34 +176,35 @@ ul li:hover .Megamenu{
 }
 .Megamenu1{
     width: 145%;
-    height: 180px;
+    height: 130px;
     background-color: rgb(255, 255, 255);
     float: left;
     padding: 5px;
     margin-left: -30px; 
-    padding-left: 0px;
     padding-right: 10px;
 }
 .Megamenu1 li a{
+    width: 80%;
+    height: 5px;
     text-decoration: none;
-    color: #222;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 15px 0;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: block;
+    padding-left: 10px;
+    float: none;
+    padding-top: 20px;
 }
 .move{
      width: 80%;
     height: 30px;
     text-decoration: none;
     margin-bottom: 10px;
-    margin-left: 0px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     display: block;
-    padding-left: 0px;
     float: none;
-    padding-top: 0px;
 }
 ul li:hover .Company2{      
     display: block;
@@ -224,8 +223,22 @@ ul li:hover .Company2{
     height: 105px;
     background-color: rgb(255, 255, 255);
     float: left;
-    padding: 0px;
     margin-left: -5px; 
-    padding-left: 0px;
-    padding-right: 0px;
+}
+.h2{
+    width: 50%;
+    height: 100px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-left: 47%;
+    margin-top: -10%;
+    /* font-style: oblique; */
+}
+.h3{
+    width: 50%;
+    height: 100px;
+    color: rgb(4, 4, 4);
+    margin-left: 41%;
+    padding-top: 45%;
+   
 }
