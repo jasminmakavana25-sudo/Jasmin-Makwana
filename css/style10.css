@@ -9,20 +9,17 @@
     display: flex;
     height: 65px;
     flex-direction: row; 
-    row-gap: 50px;
-    flex-wrap: wrap;
-    justify-content: right;
+    /* row-gap: 50px; */
     justify-content: space-evenly;
 }
 
 .w26{
-    width: 100%;
+    width: 150%;
     background-color: rgb(18, 41, 115);
     color: rgb(255, 255, 255);
     display: flex;
-    font-size: 19px;
-    row-gap: 10px;    
-    justify-content: left;
+    font-size: 18px;
+    margin-left: -35px;
     align-items: center;
   
 }
@@ -35,13 +32,14 @@
     align-items: center;
   
 }
-.w28{
+.flex2{
     width: 100%;
     background-color: rgb(18, 41, 115);
     color: rgb(255, 255, 255);
     display: flex;
     gap: 5px;
     font-size: 19px;
+    margin-left: 50px;
     justify-content: right;
     align-items: center;
   
@@ -60,9 +58,9 @@
     margin-left: 5px;
 }
 .icon{
-    width: 100px;
+    width: 235px;
     height: 100%;   
-    margin-left: -300px;
+    margin-left: 87px;
 }
 *{
     margin: 0px;
@@ -92,7 +90,7 @@ ul li a{
     padding-top: 20px;
 }
 .box{
-    margin-right: 10px;
+    margin-right: 60px;
 }
 .mainbox{
     width: 100%;
@@ -113,7 +111,7 @@ ul li a{
 .Megamenu{
 
     width: 29%;
-    height: 415px;
+    height: 350px;
     background-color: rgb(255, 255, 255);
     float: left;
     margin: -28px;
@@ -128,7 +126,7 @@ ul li:hover .Company{
 }
 .Megamenu ul li{
 width: 100%;
-height: 35px;
+height: 28px;
 
 }
 .Megamenu ul li a{
@@ -220,7 +218,7 @@ ul li:hover .Company2{
     height: 100px;
     font-size: 24px;
     color: rgb(0, 0, 0);
-    margin-left: 46%;
+    margin-left: 44%;
     margin-top: -10%;
     
 }
@@ -228,7 +226,7 @@ ul li:hover .Company2{
     width: 50%;
     height: 100px;
     color: rgb(4, 4, 4);
-    margin-left: 41%;
+    margin-left: 38%;
     padding-top: 45%;
    
 }
@@ -239,8 +237,8 @@ ul li:hover .Company2{
 }
 .flex1{
     display: flex;
-    height: 435px;
-    
+    height: 410px;
+    gap: 20px;
     justify-content: space-evenly;
 }
 .w255{
@@ -251,6 +249,7 @@ ul li:hover .Company2{
     border-radius: 30px;
     overflow: hidden;
     height: 360px;
+    
 }
 .btn{
     width: 90px;
@@ -281,7 +280,7 @@ ul li:hover .Company2{
 }
 .rank i {
     color: #ffc600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: normal;
     width:10px;
     line-height: 25px;
@@ -297,3 +296,13 @@ ul li:hover .Company2{
     background-color: #ffc600;
     
 }
+/* .description{
+    
+}
+.h4{
+
+} */
+/* p{
+    width: 100px;
+    height: 100px;
+} */
