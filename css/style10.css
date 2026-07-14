@@ -19,7 +19,8 @@
     color: rgb(255, 255, 255);
     display: flex;
     font-size: 18px;
-    margin-left: -35px;
+    margin-left: -25px;
+    gap: 8px;
     align-items: center;
   
 }
@@ -296,13 +297,27 @@ ul li:hover .Company2{
     background-color: #ffc600;
     
 }
-/* .description{
+.note{
+width:100%;
+height: 100px;
+justify-content: right;
+
+}
+.shortnote{
+width: 900px;
+height: 100px;
+justify-content: right; 
+}
+.image1{
+width: 100%;
+height: 100px;
+}
+.ponit{
+    float: left;
+}
+p{
+
+}
+h1{
     
 }
-.h4{
-
-} */
-/* p{
-    width: 100px;
-    height: 100px;
-} */
