@@ -306,7 +306,8 @@ justify-content: right;
 .shortnote{
 width: 900px;
 height: 100px;
-justify-content: right; 
+justify-content: right;
+background-color: aqua; 
 }
 .image1{
 width: 100%;
@@ -315,9 +316,55 @@ height: 100px;
 .ponit{
     float: left;
 }
-p{
+.note-box{
+    width: 90%;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-left: 90px;
+}
+.about-image{
+
+font-size: 20PX
 
 }
-h1{
-    
+ul li img{
+ border-radius: 10px;
+ width: 550px;
+ height: 300px;
+}
+.main-note{
+
+}
+.main-note li i{
+ 
+}
+.main-note-inside{
+  margin-left: 20px;
+}
+
+.main-note-inside li{
+    height: 25px;
+    width: 400px;
+    font-size: 17px;
+    align-items:end;
+    margin-left: 100px;
+}
+.main-note-inside li a{
+   font-size: 25px;
+}
+.note-title li{
+ font-size: 30px;
+ height: 40px;
+}
+.outline-text {
+    font-size: 90px;
+    font-family: "Arial Black", sans-serif;
+    color: #fff;
+    -webkit-text-stroke: 2.5px #0d4d9e;
+
+    text-shadow:
+        1px 1px 0 #0d4d9e,
+        2px 2px 0 #0d4d9e,
+        3px 3px 0 #0d4d9e;
 }
