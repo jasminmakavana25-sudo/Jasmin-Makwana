@@ -343,6 +343,7 @@ position: relative;
 .year{
     position: absolute;
     right: 100px;
+    font-size: 80px;
 }
 .right{
 flex: 1;
