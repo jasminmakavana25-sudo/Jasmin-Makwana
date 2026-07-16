@@ -316,55 +316,100 @@ height: 100px;
 .ponit{
     float: left;
 }
+
+.about{
+width: 90%;
+margin:60px auto;
+display: flex;
+justify-content: space-between;
+}
 .note-box{
-    width: 90%;
-    height: 460px;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    margin-left: 90px;
+position: relative;
 }
-.about-image{
 
-font-size: 20PX
-
-}
-ul li img{
- border-radius: 10px;
+.image-box{
+ 
  width: 550px;
  height: 300px;
 }
-.main-note{
-
+.image-box img{
+ border-radius: 20px;
 }
-.main-note li i{
- 
+.since{
+    font-size: 70px;
+    color: blue;
+    font-weight: 800;
 }
-.main-note-inside{
-  margin-left: 20px;
+.year{
+    position: absolute;
+    right: 100px;
 }
-
-.main-note-inside li{
-    height: 25px;
-    width: 400px;
-    font-size: 17px;
-    align-items:end;
-    margin-left: 100px;
+.right{
+flex: 1;
 }
-.main-note-inside li a{
-   font-size: 25px;
+.small-title{
+ display: flex;
+ align-items: center;
+ gap: 10px;
 }
-.note-title li{
- font-size: 30px;
- height: 40px;
+.line{
+    width: 20px;
+    height: 2px;
+    background-color: #ffd400;
 }
-.outline-text {
-    font-size: 90px;
-    font-family: "Arial Black", sans-serif;
-    color: #fff;
-    -webkit-text-stroke: 2.5px #0d4d9e;
-
-    text-shadow:
-        1px 1px 0 #0d4d9e,
-        2px 2px 0 #0d4d9e,
-        3px 3px 0 #0d4d9e;
+.right h2{
+    margin: 15px 0; 
+    font-size:48px;
+    font-weight: 700;
+    color: #222;
+}
+.right p{
+    color:#777;
+    line-height:1.8;
+    font-size:18px;
+}
+.development{
+    border: 1px solid orange;
+    width: 125px;
+    color: white;
+    height: 33px;
+    line-height: 33px;
+    background-color: orange;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.design{
+    border: 1px solid orange;
+    width: 100px;
+    color: white;
+    height: 33px;
+    line-height: 33px;
+    background-color: orange;
+    margin-top: -35px;
+    margin-left: 30%;
+    padding-left: 40px;
+}
+.happy{
+    border: 1px solid orange;
+    width: 170px;
+    height: 100px;
+    margin-top: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.happy p{
+    line-height: 33px; 
+    width: 160px;
+}
+.aboutcdmi{
+width: 67%;
+margin:10px 0px;
+display: flex;
+justify-content: space-between;
+}
+.pin{
+    margin-left:45px;
+}
+.pin2{
+    margin-left:45px;
 }
