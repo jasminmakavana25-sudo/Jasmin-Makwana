@@ -305,7 +305,8 @@ justify-content: right;
 .shortnote{
 width: 900px;
 height: 100px;
-justify-content: right; 
+justify-content: right;
+background-color: aqua; 
 }
 .image1{
 width: 100%;
@@ -315,20 +316,203 @@ margin-right: 20px;
 .ponit{
     float: left;
 }
-p{
 
+.about{
+width: 90%;
+margin:60px auto;
+display: flex;
+justify-content: space-between;
 }
-h1{
-    
+.note-box{
+position: relative;
+}
+
+.image-box{
+ 
+ width: 550px;
+ height: 300px;
+}
+.image-box img{
+ border-radius: 20px;
+}
+.since{
+    font-size: 70px;
+    color: blue;
+    font-weight: 800;
+}
+.year{
+    position: absolute;
+    right: 100px;
+    font-size: 80px;
+}
+.right{
+flex: 1;
+}
+.small-title{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.line{
+    width: 20px;
+    height: 2px;
+    background-color: #ffd400;
+}
+.right h2{
+    margin: 15px 0; 
+    font-size:48px;
+    font-weight: 700;
+    color: #222;
+}
+.right p{
+    color:#777;
+    line-height:1.8;
+    font-size:18px;
+}
+.development{
+    border: 1px solid orange;
+    width: 125px;
+    color: white;
+    height: 33px;
+    line-height: 33px;
+    background-color: orange;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.design{
+    border: 1px solid orange;
+    width: 100px;
+    color: white;
+    height: 33px;
+    line-height: 33px;
+    background-color: orange;
+    margin-top: -35px;
+    margin-left: 30%;
+    padding-left: 40px;
+}
+.happy{
+    border: 1px solid orange;
+    width: 170px;
+    height: 100px;
+    margin-top: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.happy p{
+    line-height: 33px; 
+    width: 160px;
+}
+.aboutcdmi{
+width: 67%;
+margin:10px 0px;
+display: flex;
+justify-content: space-between;
+}
+.pin{
+    margin-left:45px;
+}
+.pin2{
+    margin-left:45px;
+}
+.title{
+    width: 100%;
+    height: 100PX;
+    float: none;
+}
+.main-box{
+width: 100%;
+height: 500px;
+background-color: rgb(212, 204, 193);
 }
 .flex3{
-    width: 100%;
-    background-color: rgb(18, 41, 115);
-    color: rgb(255, 255, 255);
     display: flex;
-    gap: 5px;
-    font-size: 19px;
-    /* margin-left: 50px; */
-    justify-content: right;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    float:left;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+.h1{
+    width: 100%;
+    text-align: center;
+   
+}
+.write1{
+    width: 265px;
+
+}
+.mini-box{
+    width: 350px;
+    height: 337px;
     align-items: center;
+    margin-left: 130px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex; 
+}
+.mini-box img{
+    margin-left: 75px;
+    border-radius: 70px;
+}
+.write1{
+    margin-left: 5%;
+    text-align: center;
+}
+.main-title{
+    width: 245px;
+    height: 100px;
+    font-size: 20px;
+}
+.write1 p {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    border-color: orange;
+    margin-top: -60px;
+    margin-left: -10px
+}
+.flex4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    overflow: hidden;
+    float:left;
+    justify-content: center;
+    flex-direction: row;
+}
+.end{
+width: 100%;
+height: 500px;
+}
+.title1{
+   width: 260px;
+   height: 500px; 
+}
+.flex5{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+    overflow: hidden;
+    float:left;
+    justify-content: center;
+    flex-direction: row;
+}
+.big-title{
+ width: 100%;
+ height: 100px;
+ text-align: center;
+}
+p i{
+    color: #ffc600;
+}
+.small-box{
+    width: 100%;
+    height: 500px;
 }

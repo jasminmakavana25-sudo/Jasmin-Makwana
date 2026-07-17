@@ -1,10 +1,42 @@
-.w100{
-width: 100%;
-background-color: whitesmoke;
+.note-box{
+    width: 75%;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
-.flex{
-
+ul{
+ list-style: none;
+ 
 }
-.w25{
-
+.about-image{
+width: 100px;
+}
+ul li{
+ float: left;
+ 
+}
+ul li a{
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+ul li img{
+ border-radius: 10px;
+ width: 450px;
+}
+.main-note-inside li{
+    height: 25px;
+    width: 320px;
+    font-size: 15px;
+    /* align-items:end; */
+    margin-left: 55px;
+    background-color: rgb(255, 255, 255);
+}
+.main-note-inside li a{
+   width: 100px;
+   height: 100px;
+   font-size: 25px;
+}
+.note-title li{
+ font-size: 10px;
 }
