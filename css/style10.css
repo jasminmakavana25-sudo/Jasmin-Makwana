@@ -414,3 +414,97 @@ justify-content: space-between;
 .pin2{
     margin-left:45px;
 }
+.title{
+    width: 100%;
+    height: 100PX;
+    float: none;
+}
+.main-box{
+width: 100%;
+height: 500px;
+background-color: rgb(212, 204, 193);
+}
+.flex3{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    float:left;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+.h1{
+    width: 100%;
+    text-align: center;
+   
+}
+.write1{
+    width: 265px;
+
+}
+.mini-box{
+    width: 26%;
+    align-items: center;
+    margin-left: 65px;
+}
+.image2{
+width: 100px;
+height: 100px;
+justify-items: center;
+background-color: rgb(255, 255, 255);
+margin-left: 75px;
+}
+.write3{
+    width: 253px;
+    color: darkgray;
+    margin-top: 10px;
+}
+h4{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.flex4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    overflow: hidden;
+    float:left;
+    justify-content: center;
+    flex-direction: row;
+}
+.end{
+width: 100%;
+height: 500px;
+}
+.title1{
+   width: 260px;
+   height: 500px; 
+}
+.flex5{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+    overflow: hidden;
+    float:left;
+    justify-content: center;
+    flex-direction: row;
+}
+.big-title{
+ width: 100%;
+ height: 100px;
+ text-align: center;
+}
+p i{
+    color: #ffc600;
+}
+.small-box{
+    width: 100%;
+    height: 500px;
+}

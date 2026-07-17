@@ -32,7 +32,7 @@ h1{
 }   
 .write h4{
     width: 320px;
-    color: darkgray;
+    color: rgb(240, 227, 227);
     margin: 3px;
     text-align: center;
     margin-top: -70px;
@@ -47,7 +47,7 @@ h1{
 }
 .write3{
     width: 320px;
-    color: darkgray;
+    color: rgb(228, 225, 225);
     margin: 3px;
     text-align: center;
     margin-top: -70px;
