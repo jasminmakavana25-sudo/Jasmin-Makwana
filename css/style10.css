@@ -675,21 +675,123 @@ p1 i{
     height: 500px;
     background-color: rgb(35, 35, 202);
 }
-.front{
-    width: 40%;
-    height: 170px;
+.frontend{
+    width: 85%;
+    height: 146px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .image{
     width: 22%;
-    height: 85px;
+    height: 55px;
     display: flex;
     justify-content: center;
 }
+.creative{
+    width: 104%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
 .a{
-width: 27%;
-height: 200px;
-
+    width: 67%;
+    height: 200px;
+    font-size: 17px;
+}
+.follow{
+    width: 96%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+  
+}
+.follow h1{
+    width: 65%;
+    height: 100px;
+    color: rgb(248, 184, 9);
+    font-size: 20px;
+}
+.font{
+    width: 77%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.font i{
+    width: 8%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(58, 58, 211);
+    border-radius: 5px;
+}
+.front{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.middel{
+    width: 218%;
+    height: 78px;
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    align-items: end;
+    color: white;
+}
+.middel-box{
+    width: 80%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+} 
+.main-detail{
+    width: 218%;
+    height: 190px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.large-box{
+    width: 230%;
+    height: 100px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: -219px;
+    
+}
+.ContactUs{
+    width: 390px;
+    height: 100px;
+   
+}
+.Head{
+    width: 390px;
+    height: 100px;
+}
+.address{
+    width: 390px;
+    height: 100px;
+}
+.number{
+    width: 390px;
+    height: 100px;
+    color: #f0c20a;
+}
+.branches{
+    width: 390px;
+    height: 100px;
+    color: #f0c20a;
 }
