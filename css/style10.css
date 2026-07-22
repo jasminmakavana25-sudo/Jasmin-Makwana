@@ -769,7 +769,7 @@ p1 i{
     display: flex;
     align-items: end;
     flex-direction: column;
-    margin-top: -219px;
+    margin-top: -213px;
     
 }
 .ContactUs{
@@ -810,8 +810,31 @@ p1 i{
     width: 100%;
     height: 100px;
     background-color: rgb(5, 30, 60);
-    color: ;
+    color: white;
     display: flex;  
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    
+    font-size: 15px;
+}
+.outrow p{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(5, 30, 60);
+    color: white;
+    display: flex;  
+    justify-content: left;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+}
+.outrow p i{
+    width: 6%;
+    height: 100px;
+    background-color: rgb(5, 30, 60);
+    color: white;
+    display: flex;  
+    justify-content: right;
+    align-items: center;
+    font-size: 12px;
 }
