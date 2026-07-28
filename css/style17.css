@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 30%;
+    height: 800px;
+    background-color: hotpink;
+    position: relative;
+    transition: 2s;
+    display: flex;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-color: hotpink;
+}
+.minibox{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    border-radius: 50px;
+    position: absolute;
+    transition: 2s;
+    animation: ghost 2s ease-in-out 1s infinite forwards;
+}
+@keyframes ghost{
+    0%{
+        top: 0%;
+        background-color: hotpink;
+    }
+    25%{
+        top: calc(100% - 100px);
+        background-color: darkmagenta;
+        left: 0%;
+    }
+    50%{
+        left: calc(100% - 100px);
+        background-color: cyan;
+        top: 00px;
+    }
+    75%{
+        top: calc(100% - 100px);
+        background-color: crimson;
+        right: 0%;
+    }
+    100%{
+       right: calc(100% - 100px);
+       background-color: aquamarine;
+       top: 0%; 
+    }
+}

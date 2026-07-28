@@ -15,7 +15,7 @@
     background-color: black;
     border-radius: 50%;
     position: absolute;  
-     transition: 2s; 
+    transition: 2s; 
     animation: night 20s ease-in-out 1s infinite  forwards;
 }
 @keyframes night{
@@ -41,12 +41,5 @@
     100%{
         bottom: 400px;
         background-color: pink;
-        transform: rotate(-5000deg);
     }
-}
-.minibox img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    
 }
