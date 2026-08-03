@@ -2,3 +2,7 @@
     background-color: hotpink !important;
     border-color: hotpink !important;
 }
+.border{
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
