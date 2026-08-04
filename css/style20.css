@@ -1,8 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 .bgcolor{
-    background-color: hotpink !important;
-    border-color: hotpink !important;
+    background-color: rgb(50, 172, 221) !important;
+    border-color: rgb(197, 55, 126) !important;
 }
 .border{
     border-radius: 10px !important;
     overflow: hidden !important;
+}
+    
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bd-violet-bg);
+  --bs-popover-header-bg: var(--bd-violet-bg);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
 }
