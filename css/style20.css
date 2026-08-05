@@ -4,19 +4,12 @@
     
 }
 .bgcolor{
-    background-color: rgb(50, 172, 221) !important;
-    border-color: rgb(197, 55, 126) !important;
+   
+    /* border: 1px solid rgb(98, 0, 128) !important; */
 }
-.border{
-    border-radius: 10px !important;
-    overflow: hidden !important;
+.color{
+    color: rgb(255, 255, 255) !important;  
+    border: 1px solid rgb(102, 15, 153) !important; 
+    background-color: rgb(71, 34, 134) !important;  
 }
-    
-.custom-popover {
-  --bs-popover-max-width: 200px;
-  --bs-popover-border-color: var(--bd-violet-bg);
-  --bs-popover-header-bg: var(--bd-violet-bg);
-  --bs-popover-header-color: var(--bs-white);
-  --bs-popover-body-padding-x: 1rem;
-  --bs-popover-body-padding-y: .5rem;
-}
+
