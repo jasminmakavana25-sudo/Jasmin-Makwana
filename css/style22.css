@@ -2,8 +2,6 @@
     width: 80% !important;
     display: flex !important;
     justify-content:center !important;
-    gap: 20px !important;
-    
 }
 .navbar-nav{
     display: flex !important;
@@ -27,4 +25,8 @@
 .navbar-brand{
     font-size: 25px !important;
     color: #f4f6f7 !important;
+}
+.dropdown-item:hover{
+   
+    color: #079be6 !important;
 }

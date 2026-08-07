@@ -1,0 +1,16 @@
+.container-fluid{
+    display: flex  !important;
+    justify-content: left !important;
+    background-color: #8a15d8 !important;
+    gap: 20% !important;
+}
+.collapse-navbar-collapse{
+    background-color: #8a15d8 !important;
+}
+.nav-link{
+    color: #ffffff !important;
+}
+.navbar-bg-body-tertiary{
+    width: 25% !important;
+  
+}
