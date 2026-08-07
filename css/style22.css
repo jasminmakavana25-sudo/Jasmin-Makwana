@@ -1,0 +1,30 @@
+.collapse-navbar-collapse{
+    width: 80% !important;
+    display: flex !important;
+    justify-content:center !important;
+    gap: 20px !important;
+    
+}
+.navbar-nav{
+    display: flex !important;
+    justify-content:center !important;
+    gap: 20px !important;
+}
+.nav-link:hover{
+    color: #0d9df0 !important;
+}   
+.nav-link{
+    color: #f4f6f7 !important;
+    font-size: 15px !important;
+}
+.btn-btn-primary{
+    width: 100px !important;
+    font-size: 15px !important;
+    background-color: #0d9df0 !important;
+    border-color: #0d9df0 !important;
+    border-radius: 20px !important;
+}
+.navbar-brand{
+    font-size: 25px !important;
+    color: #f4f6f7 !important;
+}
