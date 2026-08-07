@@ -5,162 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style20.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- <div class="container">
-  <div class="container-sm">100% wide until small breakpoint</div>
-  <div class="container-md">100% wide until medium breakpoint</div>
-  <div class="container-lg">100% wide until large breakpoint</div>
-  <div class="container-xl">100% wide until extra large breakpoint</div>
-  <div class="container-xxl">100% wide until extra extra large breakpoint</div>
-  <div class="container-fluid">
-  ...
-</div>
-</div> -->
-<div class="container text-center">
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2 color bgcolor">
-      1 of 3
-    </div>
-    <div class="col-md-auto color bgcolor">
-      Variable width content
-    </div>
-    <div class="col col-lg-2 color bgcolor">
-      3 of 3
-    </div>
-  </div>
-  <div class="row bgcolor">
-    <div class="col color">
-      1 of 3
-    </div>
-    <div class="col-md-auto color bgcolor">
-      Variable width content
-    </div>
-    <div class="col col-lg-2 color bgcolor">
-      3 of 3
-    </div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row">
-    <div class="col color">col</div>
-    <div class="col color">col</div>
-    <div class="col color">col</div>
-    <div class="col color">col</div>
-  </div>
-  <div class="row">
-    <div class="col-8 color">col-8</div>
-    <div class="col-4 color">col-4</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row">
-    <div class="col-sm-8 color">col-sm-8</div>
-    <div class="col-sm-4 color">col-sm-4</div>
-  </div>
-  <div class="row">
-    <div class="col-sm color">col-sm</div>
-    <div class="col-sm color">col-sm</div>
-    <div class="col-sm color">col-sm</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-  <div class="row">
-    <div class="col-md-8 color">.col-md-8</div>
-    <div class="col-6 col-md-4 color">.col-6 .col-md-4</div>
-  </div>
-
-  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-  <div class="row">
-    <div class="col-6 col-md-4 color">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4 color">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4 color">.col-6 .col-md-4</div>
-  </div>
-
-  <!-- Columns are always 50% wide, on mobile and desktop -->
-  <div class="row">
-    <div class="col-6 color">.col-6</div>
-    <div class="col-6 color">.col-6</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row row-cols-2">
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row row-cols-3">
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row row-cols-auto">
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row row-cols-4">
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row row-cols-4">
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col-6 color">Column</div>
-    <div class="col color">Column</div>
-  </div>
-</div>  
-<br>
-<div class="container text-center">
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-    <div class="col color">Column</div>
-  </div>
-</div>
-<br>
-<div class="container text-center">
-  <div class="row">
-    <div class="col-sm-3 color">
-      Level 1: .col-sm-3
-    </div>
-    <div class="col-sm-9">
-      <div class="row color">
-        <div class="col-8 col-sm-6 color">
-          Level 2: .col-8 .col-sm-6
-        </div>
-        <div class="col-4 col-sm-6 color">
-          Level 2: .col-4 .col-sm-6
-        </div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col height">
+    <div class="card h-100">
+     <img src="https://www.freeiconspng.com/thumbs/compass-icon/compass-icon-27.png" alt="..." width="50px" height="50px" >
+      <div class="card-body">
+        <h5 class="card-title">Brand Strategy</h5>
+        <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur.</p>
       </div>
+      <div class="link">
+        <a href="https://bootstrapmade.com/demo/Horizon/">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+  </div>
+  </div>
+  <div class="col height">
+    <div class="card h-100">
+      <img src="https://media.istockphoto.com/id/2143480432/vector/artistic-creativity-icon.jpg?s=612x612&w=0&k=20&c=-6VYBUXYTWKBZkkU1-RsCkhufn0DEB_QMd0mP1EbfSE=" alt="..." width="60px" height="60px">
+      <div class="card-body">
+        <h5 class="card-title">Visual Identity</h5>
+        <p class="card-text">Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit laboriosam nisi.</p>
+      </div>
+      <div class="link">
+        <a href="">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    
+  </div>
+  </div>
+  <div class="col height">
+    <div class="card h-100">
+      <img src="https://thumbs.dreamstime.com/b/web-site-webpage-icon-website-page-text-browser-window-simple-vector-pictogram-sign-web-site-webpage-icon-website-page-394320433.jpg"   alt="..." width="60px" height="60px">
+      <div class="card-body">
+        <h5 class="card-title">Web Design</h5>
+        <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+      </div>
+      <div class="link">
+        <a href="">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+  </div>
+  </div>
+  <div class="col height">
+    <div class="card h-100">
+      <img src="https://thumbs.dreamstime.com/b/programming-code-icon-vector-filled-flat-sign-solid-pictogram-isolated-white-symbol-logo-illustration-programming-code-icon-104454222.jpg"  alt="..." width="60px" height="60px">
+      <div class="card-body">
+        <h5 class="card-title">Development</h5>
+        <p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et.</p>
+      </div>
+      <div class="link">
+        <a href="https://bootstrapmade.com/demo/Horizon/">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    
+  </div>
+  </div>
+    <div class="col height">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeYt_9cmRl2x9jAT1ViXLCNV9hexTMGTqfa7RppU0rNvCe0EQuRJKFeqU&s=10" alt="..." width="60px" height="60px">
+      <div class="card-body">
+        <h5 class="card-title">Motion & Video</h5>
+        <p class="card-text">Itaque earum rerum hic tenetur a sapiente delectus ut aut reiciendis voluptatibus maiores alias.</p>
+      </div>
+      <div class="link">
+        <a href="">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    
     </div>
+  </div>
+    <div class="col height">
+    <div class="card h-100">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/000/286/965/small/1__2823_29.jpg" alt="..." width="60px" height="60px">
+      <div class="card-body">
+        <h5 class="card-title">Growth Marketing</h5>
+        <p class="card-text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
+      </div>
+      <div class="link">
+        <a href="">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    
+   </div>
   </div>
 </div>
 </body>

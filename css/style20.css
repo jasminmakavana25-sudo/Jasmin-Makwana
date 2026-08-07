@@ -1,15 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-}
+/*
 .bgcolor{
    
     /* border: 1px solid rgb(98, 0, 128) !important; */
-}
-.color{
+
+/* .color{
     color: rgb(255, 255, 255) !important;  
     border: 1px solid rgb(102, 15, 153) !important; 
     background-color: rgb(71, 34, 134) !important;  
 }
-
+ */
+.box{
+    width: 100px !important;
+    height: 100px !important;
+}
+.link{
+    height: 50px !important;
+    width: 140px !important;
+    display: flex !important;
+    justify-content: center !important;
+    Align-items: center !important;
+}
+.height{
+    height: 250px !important;
+}
+h5:hover{
+    color: rgb(102, 15, 153) !important;
+}
+a:hover{
+    color: rgb(247, 121, 3) !important;
+    filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.5));  
+}
+a{
+    transition: 1ms ease-in-out !important;
+}
+.card:hover{
+    filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.5));  
+}
+.card{
+    transition: 0.5s ease-in-out !important;
+}
+img{
+    margin-left: 10px !important;
+}
