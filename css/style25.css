@@ -1,4 +1,4 @@
-.title{
+/* .title{
     font-size: 40px !important;
     font-weight: 800 !important;
     height: 100px !important;  
@@ -82,4 +82,17 @@
 }
 .card-text1{
     color: rgb(168, 162, 162) !important;
+} */
+.col-md-4{
+    width: 50px !important;
+    height: 80px !important;
+}
+.p-2{
+    width: 60% !important;
+}
+.row{
+    width: 100% !important;
+}
+.minibox{
+    height: 100px;
 }
