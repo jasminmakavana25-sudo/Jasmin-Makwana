@@ -82,14 +82,24 @@
 }
 .card-text1{
     color: rgb(168, 162, 162) !important;
-} */
+}
 .col-md-4{
     width: 50px !important;
     height: 80px !important;
 }
-/* .p-2{
-    width: 60% !important;
-} */
+
 .row{
     width: 100% !important;
+} */
+.box{  
+    background-color: rgb(231, 231, 228);
+}
+.d-flex{
+    background-color: rgb(231, 231, 228);
+}
+.a{
+    background-color: rgb(231, 231, 228);
+}
+.border-start{
+    border-color: rgb(122, 124, 126);
 }
