@@ -3,7 +3,7 @@
     
 }
 .list-group:hover{
-   transform: translatey(10px) !important; 
+   transform: translatex(10px) !important; 
 }
 .list-group{ transition: 1s !important;
 }
@@ -34,7 +34,7 @@ width: 45% !important;
     border-radius: 0px !important;
     transform: translatex(10px);
 }
-.list-group-item-action{
+.list-group-item{
     transition: 1s !important;
 }
 .list-group-item-action1:hover{
