@@ -16,6 +16,7 @@
 .dropdown:hover .dropdown-menu{
     display: block !important;  
 }
-.nav-item1{
-    
+
+.a{
+    width: 160%;
 }
