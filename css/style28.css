@@ -16,7 +16,24 @@
 .dropdown:hover .dropdown-menu{
     display: block !important;  
 }
-
+.list-group-item{
+    width: 332px;
+    height: 59px;
+}
 .a{
-    width: 160%;
+    width: 345px;
+    height: 340px;
+}
+.b{
+    width: 51px;
+    height: 45px;
+}
+.badge{
+    height: 25px;
+}
+.c{
+     height: 20px;
+}
+.Megamenu{
+    text-decoration: none;
 }
