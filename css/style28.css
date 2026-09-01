@@ -6,6 +6,7 @@
 .navbar{
     width: 90%;
     height: 68px;
+    filter: drop-shadow(5px 12px 35px rgba(0, 0, 0, 0.5));
 }
 .container-fluid{
     width: 75%;
@@ -36,4 +37,15 @@
 }
 .Megamenu{
     text-decoration: none;
+}
+.Megamenu:hover .dropdown-menu{
+    display: block !important;
+}
+.h{
+    width: 100%;
+    right: 0px;
+}
+.list-group{
+    left: 100px !important;
+    
 }
