@@ -23,3 +23,24 @@
 .box p,h1{
     color: white;
 }
+.image{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    background-image: url('../media/QloNVy.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+    
+}
+.image::before{
+    content: "";
+    width: 500px;
+    height: 500px;
+    background-color: rgb(35, 35, 8, 60%);
+    z-index: -1;
+    position: absolute;
+}
+.image p{
+    color: white;
+}
