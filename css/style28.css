@@ -44,8 +44,20 @@
 .h{
     width: 100%;
     right: 0px;
+    height: 350px;
 }
 .list-group{
-    left: 100px !important;
-    
+    width: 30%;  
+}
+.list-group-item{
+    width: 332px;
+    border: none white !important;
+}
+
+.dropdown{
+    text-decoration: none;
+    color: black;
+}
+.list-group1{
+    width: 100%;
 }
