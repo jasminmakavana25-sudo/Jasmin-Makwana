@@ -2,20 +2,20 @@
 #include<conio.h>
 void main()
 {
-	int a=82,b=222,g=30,sum,minus,multi,d,m;
+	int a=388,b=322,g=380,sum,minus,multi,d,m;
 	clrscr();
 
-       //	sum = apple+boom;
-      //	printf("\nSum %d",sum);
+	sum = a+b+g;
+	printf("\nSum %d",sum);
 
-	minus = a-b;
+	minus = a-b-g;
 	printf("\nminus  %d",minus);
 
-	multi = a*b;
+	multi = a*b*g;
 	printf ("\nMulti  %d",multi);
 
-	d =b/a;
-	printf("\nD %d", d);
+	d =a/b/g;
+	printf("\nD %d",d);
 
 	m =b%a%g;
 	printf("\nm %d",m);
