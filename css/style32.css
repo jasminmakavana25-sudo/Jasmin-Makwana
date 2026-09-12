@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image-box{
+    width: 100%;
+    height: 900px;
+    background-color: aqua;
+    background-image: url(../../media/showcase-7.webp);
+    background-size: 100% 100%;
+    z-index: 1;
+    position: relative;
+}
+.image-box::before{
+    content: "";
+    width: 100%;
+    height: 900px;
+    background-color: rgba(2, 141, 196, 0.466);
+    z-index: -1;
+    position: absolute;
+}
+.box{
+    width: 100%;
+    height: 60px;
+}
+.box-1{
+    height: 130px;
+}
+.a{
+ width: 140px;
+}
+.btn{
+    width: 130px;
+}
+.navbar{
+    width: 90%;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transform: translateY(5px) !important;
+}
+.dropdown-menu{
+    transition: 3s !important;
+}
+.card2{
+    width: 88% !important;
+
+}
+.card-subtitle{
+    width: 670px;
+    font-size: 60px !important;
+}
+.card-title{
+    width: 270px;
+    height: 29px;
+}
+.s{
+    width: 150px;
+    height: 50px;
+}
