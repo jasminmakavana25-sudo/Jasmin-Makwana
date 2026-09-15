@@ -1,34 +1,31 @@
-@media (max-width: 576px) {
+@media (max-width: 576px)
+{
     .main
     {
-    background-color: blue;
+    /* background-color: blue; */
     flex-wrap: wrap;
     }
     .box{
         width: 100%; 
     }
-}
-@media (min-width: 577px) and (max-width: 700px)
-{
-    .main{
-    background-color: green;
-    flex-wrap: wrap;
-    }
-    .box{
+    .container-fluid{
         width: 50%;
     }
 }
-@media (min-width: 701px) and (max-width: 1000px)
+@media (min-width: 768px) and (max-width:767px)
 {
     .main{
-        background-color: yellow;
+        /* background-color: yellow; */
         flex-wrap: wrap;
     }
     .box{
             width: 50%;
     }
+    .container-fluid{
+        width: 50%;
+    }
 }
-@media (min-width: 1001px) and (max-width: 1010px)
+@media (min-width: 992px) and (max-width: 991.98px)
 {
   .main{
         background-color: rgb(0, 140, 255);
@@ -36,5 +33,34 @@
     }
     .box{
             width: 50%;
+    }
+    .container-fluid{
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1199.98px){ 
+
+      .main{
+        background-color: rgb(0, 140, 255);
+        flex-wrap: wrap;
+    }
+    .box{
+            width: 50%;
+    }
+    .container-fluid{
+        width: 50%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1399.98px) {
+
+         .main{
+        background-color: rgb(0, 140, 255);
+        flex-wrap: wrap;
+    }
+    .box{
+            width: 50%;
+    }
+    .container-fluid{
+        width: 50%;
     }
 }
