@@ -19,13 +19,7 @@
     z-index: -1;
     position: absolute;
 }
-.box{
-    width: 100%;
-    height: 60px;
-}
-.box-1{
-    height: 130px;
-}
+
 .a{
  width: 140px;
 }
@@ -33,7 +27,7 @@
     width: 130px;
 }
 .navbar{
-    width: 91%;
+    width: 88%;
 }
 .dropdown:hover .dropdown-menu{
     display: block;
@@ -60,13 +54,13 @@
     height: 50px;
 }
 .container-fluid{
-    width: 100%;
+    width: 122% !important;
 }
 .box{
     width: 100%;
-    height: 576px;
+    height: 170px;
 }
 .box-1{
      width: 100%;
-    height: 530px;
+    height: 100px;
 }
