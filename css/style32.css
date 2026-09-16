@@ -32,27 +32,6 @@
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-
-.card2{
-    width: 88% !important;
-
-}
-.card-subtitle{
-    width: 670px;
-    font-size: 60px !important;
-}
-.card-title{
-    width: 270px;
-    height: 29px;
-}
-.s{
-    width: 150px;
-    height: 50px;
-}
-.w{
-    width: 18%;
-    height: 50px;
-}
 .container-fluid{
     width: 122% !important;
 }
@@ -61,6 +40,9 @@
     height: 170px;
 }
 .box-1{
-     width: 100%;
+    width: 100%;
     height: 100px;
+}
+.car2{
+    width: 100%;
 }
