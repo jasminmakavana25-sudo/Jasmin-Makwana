@@ -26,23 +26,25 @@
 .btn{
     width: 130px;
 }
-.navbar{
-    width: 88%;
-}
+
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-.container-fluid{
-    width: 122% !important;
-}
+
 .box{
     width: 100%;
     height: 170px;
 }
 .box-1{
-    width: 100%;
+    width: 97%;
     height: 100px;
 }
-.car2{
-    width: 100%;
+.card1{
+    width: 80%;
+}
+.card-subtitle{
+    width: 50%;
+}
+.card-title{
+    width: 27%;
 }
