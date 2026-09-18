@@ -15,9 +15,18 @@
         width: 95%;
     }
     .card-title{
-        width: 85%;
+        width: 100%;
     }
-    
+    .navbar-brand{
+        width: 70%;
+    }
+    .card-subtitle{
+        width: 99%;
+        font-size: 35px;
+    }
+    .card-text{
+        width: 100%;
+    }
   
 }
 @media (min-width: 577px) and (max-width:767px)
@@ -38,6 +47,9 @@
     .card-title{
         width: 60%;
     }
+    .navbar-brand{
+        width: 83%;
+    }
 
   
 }
@@ -51,7 +63,7 @@
         width: 100%;
     }
     .navbar{
-        width: 1040px;
+        width: 710px;
     }
     .container-fluid{
         width: 1040px;
@@ -59,6 +71,17 @@
     .card-title{
         width: 45%;
     }
+    .navbar-brand{
+        width: 85%;
+    }
+    .card-subtitle{
+        width: 100%;
+        font-size: 45px;
+    }
+    .card-text{
+        width: 75%;
+    }
+   
   
   
 }
@@ -74,15 +97,29 @@
         width: 100%;
     }
       .navbar{
-        width: 1040px;
+        width: 1010px;
     }
-     .container-fluid{
+     /* .container-fluid{
         width: 1040px;
-    }
+    } */
     .card-title{
         width: 36%;
     }
-   
+    .navbar-brand{
+        margin-left: 15px;
+        width: 13%;
+    }
+     .card-subtitle{
+        width: 54%;
+        font-size: 54px;
+    }
+    .card-text{
+        width: 59%;
+    }
+     .navbar-nav{
+         width: 85%;
+        
+    }
    
    
 }
@@ -105,5 +142,24 @@
     .card-body{
         width: 1040px;
     }
+    .navbar-brand{
+        width: 30%;
+    }
 }
-/* @media (min-width: 1401px) and (max-width) */
+@media (min-width: 1401px) and (max-width: 1440px)
+{
+    .navbar{
+        width: 95%;
+    }
+    .navbar-brand{
+        margin-left: 20px;
+    }
+     .navbar-nav{
+        width: 960px;
+        gap: 20px;
+    }
+      .card-subtitle{
+        width: 54%;
+        font-size: 54px;
+    }
+}

@@ -21,7 +21,7 @@
 }
 
 .a{
- width: 140px;
+    width: 125px !important;
 }
 .btn{
     width: 130px;
@@ -40,11 +40,22 @@
     height: 100px;
 }
 .card1{
-    width: 80%;
+    width: 91%;
 }
 .card-subtitle{
-    width: 50%;
+    /* width: 99%; */
+    font-size: 50px;
 }
 .card-title{
     width: 27%;
 }
+
+.card-text{
+   width: 55%;
+}
+    /* .navbar{
+        width: 100% !important;
+    } */
+/* .navbar-brand{
+    width: 15%;
+} */
