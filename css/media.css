@@ -508,6 +508,9 @@
 }
 @media (min-width: 1401px) and (max-width: 1440px)
 {
+    .call1{
+        font-size: 45px;
+    }
     .navbar{
         width: 95%;
     }
@@ -527,7 +530,7 @@
     }
     .list-group-item{
         flex-direction: column;
-        width: 65%;
+        width: 60%;
     }
     .h {
     width: 100%;
@@ -588,7 +591,10 @@
       height: 215px;  
     }
     .w-1{
-        width: 25%;
+        width: 16%;
         height: 55px;
+    }
+    .Appointment {
+    width: 15%;
     }
 }
