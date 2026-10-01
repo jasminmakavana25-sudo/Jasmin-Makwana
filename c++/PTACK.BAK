@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1 ,user;
+	clrscr();
+
+	printf("Enter i =");
+	scanf("%d",i);
+	while(i<=25)
+	{
+		printf("\n user %d",i);
+		i++;
+	}
+	getch();
+}
+
+
+
+
+
