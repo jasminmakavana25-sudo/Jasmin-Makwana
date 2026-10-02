@@ -98,12 +98,19 @@ p{
     font-size: 12px;
     opacity: 45%;
 }
+.w-1{
+    width: 40% !important;
+}
 .f{
     font-size: 14px;
+}
+.paip{
+    height: 5px;
 }
 .fs{
     font-size: 12px;
     opacity: 45%;
+    height: 20px;
 }
 
 .height{
