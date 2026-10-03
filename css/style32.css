@@ -89,7 +89,7 @@ p{
     height: 65px;
 }
 .row{
-    width: 100%;
+    width: 110%;
     height: 45px;
 }
 .height1{
@@ -99,7 +99,7 @@ p{
     opacity: 45%;
 }
 .w-1{
-    width: 40% !important;
+    width: 40% ;
 }
 .f{
     font-size: 14px;
@@ -150,7 +150,7 @@ p{
     height: 5px;
 }
 .liti{
-    width: 100%;
+    width: 95%;
     height: 35px;
 }
 .lito{

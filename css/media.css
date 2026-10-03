@@ -395,15 +395,21 @@
       height: 195px;  
     }
     .w-1{
-        width: 25%;
+        width: 60%;
         height: 55px;
     }
-    .v {
+    .height1{
+    width: 100% !important;  
+    }
+        .v {
     width: 40%;
     } 
     .main-line {
     width: 85%;
     font-size: 14px;
+}
+.f{
+    width: 90%;
 }
    
 }
@@ -557,13 +563,16 @@
     }
     .button{
         width: 100%;
+        
     }
     .w {
     width: 25% !important;
     height: 50px;
     }
     .btn{
-    width: 225px;
+    width: 200px;
+    height: 45px;
+    font-size: 15px !important;
     }
     .d {
     height: 75px;
@@ -596,5 +605,9 @@
     }
     .Appointment {
     width: 15%;
+    }
+    .liti{
+    width: 95%;
+    height: 35px;
     }
 }
