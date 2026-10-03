@@ -2,16 +2,21 @@
 #include<conio.h>
 void main ()
 {
-	int i=1,n;
+	int i=1,n,total=0,multi=1;
 	clrscr();
 
 	printf("Enter i =");
 	scanf("%d",&n);
 
-	for(i=1;i<=10;i+=1)
+	while(i<=5)
 	{
-		printf("\n%d*%d=%d",n,i,n*i);
-
+		printf("\n%d",i);
+		total = total+i;
+		multi = multi*i;
+		i++;
 	}
+	printf("\n total = %d\n",total);
+	printf("\n multi = %d\n",multi);
+
 	getch();
 }
