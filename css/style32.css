@@ -48,7 +48,18 @@
 }
 .card-title{
     width: 27%;
+    font-size: 12px;
 }
+.graypip{
+    width: 95%;
+}
+.graypipi{
+    height: 95px;
+}
+.paipi{
+    height: 95px;
+}
+
 
 /* .card-text{
    width: 55%;

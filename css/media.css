@@ -278,7 +278,7 @@
       height: 195px;  
     }
     .w-1{
-        width: 15%;
+        width: 45%;
         height: 55px;
     }
     .v {
@@ -308,7 +308,7 @@
         width: 1040px;
     } */
     .card-title{
-        width: 55%;
+        width: 40%;
         height: 30px;
     }
     .navbar-brand{
@@ -330,9 +330,7 @@
     .card-body{
         width: 605px;
     }
-    .w-251{
-        width: 35%;
-    }
+    
      .list-group-item{
         flex-direction: column;
         width: 65%;
@@ -360,15 +358,20 @@
     /* .button{
         width: 100%;
     } */
+    .w-251{
+        width: 30%;
+        font-size: 13px !important;
+        height: 40px;
+    }
     .w {
-    width: 35% !important;
-    height: 50px;
+    width: 25% !important;
+    height: 40px;
     font-size: 15px !important;
     }
-    .btn{
-    width: 190px;
+    /* .btn{
+    width: 25%;
     font-size: 15px !important;
-    }
+    } */
     .d {
     height: 75px;
     }
