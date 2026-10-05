@@ -1,0 +1,8 @@
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    
+}
+.a{
+    width: 345px;
+    height: 340px;
+}

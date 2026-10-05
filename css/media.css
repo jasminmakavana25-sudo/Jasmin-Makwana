@@ -1,0 +1,616 @@
+@media  (max-width: 576px)
+{
+    .image-box
+    {
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    .box{
+        width: 100%; 
+    }
+    .navbar{
+        width: 95%;
+    }
+     .container-fluid{
+        width: 95%;
+    }
+    .card-title{
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
+    .card-subtitle{
+        width: 99%;
+        font-size: 35px;
+    }
+    .card-text{
+        width: 100%;
+        height: 125px;
+    }
+    .card1{
+        flex-direction: column !important;
+    }
+    .card-body{
+        height: 635px;
+    }
+    .eng{
+    width: 100%;
+    height: 75px;
+    }
+    .w{
+         width: 55%;
+    }
+    .w-251{
+        width: 55%;
+    }
+    .v{
+    width: 100%;
+    }
+    .row {
+    width: 108%;
+    height: 62px;
+    }
+    .height1 {
+    height: 35px;
+    font-style: normal;
+    font-size: 12px;
+    }
+    .button{
+        flex-direction: column !important;
+    }
+    .v{
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .h {
+    width: 100%;
+    height: 80px;
+    }
+     .Treated-Patients{
+        width: 50%;
+        height: 75px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+     .call {
+    width: 35%;
+    height: 75px;
+    }
+    .eng{
+        width: 100%;
+    }
+     .icon {
+    width: 60% !important;
+    height: 45px !important;
+    }
+    .f-1{
+        font-size: 45px;
+    }
+    .review-header{
+        width: 95%;
+        height: 55px;
+    }
+     .w-1{
+        width: 20%;
+        height: 55px;
+    }
+}
+@media (min-width: 577px) and (max-width:767px)
+{
+    .image-box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .navbar{
+        width: 95%;
+    }
+     .container-fluid{
+        width: 95%;
+    }
+    .card-title{
+        width: 60%;
+    }
+    .navbar-brand{
+        width: 83%;
+    }
+    .card1{
+        flex-direction: column !important;
+    }
+    .button{
+        flex-direction: column !important;
+    }
+    .v{
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .h {
+    width: 100%;
+    height: 80px;
+    }
+     .Treated-Patients{
+        width: 50%;
+        height: 75px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+     .call {
+    width: 14%;
+    height: 75px;
+    }
+    .eng{
+        width: 100%;
+    }
+    .review-header{
+        width: 95%;
+        height: 55px;
+    }
+     .w-1{
+        width: 15%;
+        height: 55px;
+    }
+  
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .image-box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .navbar{
+        width: 710px;
+    }
+    .container-fluid{
+        width: 1040px;
+    }
+    .card-title{
+        width: 45%;
+        height: 30px;
+    }
+    .navbar-brand{
+        width: 85%;
+    }
+    .card-subtitle{
+        width: 100%;
+        font-size: 45px;
+    }
+    .card-text{
+        width: 75%;
+    }
+    .card1{
+        flex-direction: column !important;
+    }
+    .button{
+        flex-direction: row !important;
+    }
+    .btn-lg{
+        width: 30%;
+    }
+    .card-body{
+        height: 410px;
+    }
+    .v{
+        width: 100%;
+        height: 400px;
+    }
+    .v{
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .ms-2{
+        height: 75px;
+    }
+    .Treated-Patients{
+        width: 50%;
+        height: 75px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+    .review-header{
+        width: 95%;
+        height: 55px;
+    }
+    .img{
+      width: 50%;
+      height: 44px;  
+    }
+   
+    .name{
+        width: 100%;
+    }
+        
+    .h {
+    width: 100%;
+    height: 80px;
+    }
+    .call {
+    width: 16%;
+    height: 75px;
+    }
+    .icon {
+    width: 60% !important;
+    height: 45px !important;
+    }
+    .eng{
+        width: 100%;
+    }
+    /*   */
+    p {
+    width: 75%;
+    height: 65px;
+    }
+    /* .button{
+        width: 100%;
+    } */
+    .w {
+    width: 25% !important;
+    height: 50px;
+    font-size: 15px !important;
+    }
+    .btn{
+    width: 190px;
+    font-size: 15px !important;
+    }
+    .d {
+    height: 75px;
+    }
+   .line {
+    width: 100%;
+    height: 75px;
+    }
+    .review-reting{
+        font-size: 12px;
+    }
+    .h-1{
+        width: 100%;
+      height: 195px;  
+    }
+    .w-1{
+        width: 45%;
+        height: 55px;
+    }
+    .v {
+    width: 100%;
+    } 
+    .main-line {
+    width: 95%;
+    font-size: 14px;
+}
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+   
+    .image-box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+      .navbar{
+        width: 1010px;
+    }
+     /* .container-fluid{
+        width: 1040px;
+    } */
+    .card-title{
+        width: 40%;
+        height: 30px;
+    }
+    .navbar-brand{
+        margin-left: 15px;
+        width: 13%;
+    }
+     .card-subtitle{
+        width: 95%;
+        font-size: 54px;
+    }
+    .card-text{
+        width: 95%;
+        height: 100px;
+    }
+     .navbar-nav{
+         width: 85%;
+        
+    }
+    .card-body{
+        width: 605px;
+    }
+    
+     .list-group-item{
+        flex-direction: column;
+        width: 65%;
+    }
+    .h {
+    width: 100%;
+    height: 80px;
+    }
+    .call {
+    width: 45%;
+    height: 75px;
+    }
+    .icon {
+    width: 55% !important;
+    height: 45px !important;
+    }
+    .eng{
+        width: 100%;
+    }
+    /*   */
+    p {
+    width: 75%;
+    height: 65px;
+    }
+    /* .button{
+        width: 100%;
+    } */
+    .w-251{
+        width: 30%;
+        font-size: 13px !important;
+        height: 40px;
+    }
+    .w {
+    width: 25% !important;
+    height: 40px;
+    font-size: 15px !important;
+    }
+    /* .btn{
+    width: 25%;
+    font-size: 15px !important;
+    } */
+    .d {
+    height: 75px;
+    }
+     .Treated-Patients{
+        width: 50%;
+        height: 80px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+    .line {
+    width: 100%;
+    height: 75px;
+    }
+    .review-header{
+        width: 93%;
+        height: 55px;
+    }
+    .review-reting{
+        font-size: 12px;
+    }
+    .h-1{
+      height: 195px;  
+    }
+    .w-1{
+        width: 60%;
+        height: 55px;
+    }
+    .height1{
+    width: 100% !important;  
+    }
+        .v {
+    width: 40%;
+    } 
+    .main-line {
+    width: 85%;
+    font-size: 14px;
+}
+.f{
+    width: 90%;
+}
+   
+}
+@media (min-width: 1200px) and (max-width: 1400px) 
+{
+
+    .image-box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .navbar{
+        width: 1156PX;
+    }
+    .container-fluid{
+        width: 1040px;
+    }
+    .card-body{
+        width: 790px;
+    }
+    .navbar-brand{
+        width: 30%;
+    }
+    .card-subtitle{
+        width: 75%;
+        font-size: 54px;
+    } 
+    .card-text{
+        width: 55%;
+    }
+     .list-group-item{
+        flex-direction: column;
+        width: 65%;
+    }
+    .h {
+    width: 100%;
+    height: 80px;
+    }
+    .call {
+    width: 25%;
+    height: 75px;
+    }
+    .icon {
+    width: 55% !important;
+    height: 45px !important;
+    }
+    .eng{
+        width: 100%;
+    }
+    .card-title {
+    width: 40%;
+    height: 30px;
+    }   
+    p {
+    width: 75%;
+    height: 65px;
+    }
+    .button{
+        width: 100%;
+    }
+    .w {
+    width: 25% !important;
+    height: 50px;
+    }
+    .btn{
+    width: 190px;
+    }
+    .d {
+    height: 75px;
+    }
+     .Treated-Patients{
+        width: 50%;
+        height: 80px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+    .line {
+    width: 100%;
+    height: 75px;
+    }
+    .review-header{
+        width: 93%;
+        height: 65px;
+    }
+    .review-reting{
+        font-size: 12px;
+    }
+    .h-1{
+      height: 215px;  
+    }
+    .w-1{
+        width: 25%;
+        height: 55px;
+    }
+    .v {
+    width: 50%;
+    } 
+}
+@media (min-width: 1401px) and (max-width: 1440px)
+{
+    .call1{
+        font-size: 45px;
+    }
+    .navbar{
+        width: 95%;
+    }
+    .navbar-brand{
+        margin-left: 20px;
+    }
+     .navbar-nav{
+        width: 960px;
+        gap: 20px;
+    }
+      .card-subtitle{
+        width: 85%;
+        font-size: 54px;
+    }
+    .card1{
+        flex-direction: row;
+    }
+    .list-group-item{
+        flex-direction: column;
+        width: 60%;
+    }
+    .h {
+    width: 100%;
+    height: 80px;
+    }
+    .call {
+    width: 25%;
+    height: 75px;
+    }
+    .icon {
+    width: 55% !important;
+    height: 45px !important;
+    }
+    .eng{
+        width: 100%;
+    }
+    .card-title {
+    width: 40%;
+    height: 30px;
+    }   
+    p {
+    width: 75%;
+    height: 65px;
+    }
+    .button{
+        width: 100%;
+        
+    }
+    .w {
+    width: 25% !important;
+    height: 50px;
+    }
+    .btn{
+    width: 200px;
+    height: 45px;
+    font-size: 15px !important;
+    }
+    .d {
+    height: 75px;
+    }
+     .Treated-Patients{
+        width: 50%;
+        height: 80px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+    .line {
+    width: 100%;
+    height: 75px;
+    }
+    .review-header{
+        width: 93%;
+        height: 65px;
+    }
+    .review-reting{
+        font-size: 12px;
+    }
+    .h-1{
+      height: 215px;  
+    }
+    .w-1{
+        width: 43%;
+        height: 55px;
+    }
+    .Appointment {
+    width: 15%;
+    }
+    .liti{
+    width: 95%;
+    height: 35px;
+    }
+}
