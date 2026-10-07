@@ -25,6 +25,7 @@
 }
 .btn{
     width: 130px;
+    
 }
 
 .dropdown:hover .dropdown-menu{
@@ -110,9 +111,13 @@ p{
     opacity: 45%;
 }
 .w-1{
-    width: 40% ;
+    width: 60% ;
 }
-.f{
+.w-2{
+    width: 35%;
+}
+.f2{
+    width: 60%;
     font-size: 14px;
 }
 .paip{

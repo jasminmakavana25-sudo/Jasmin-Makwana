@@ -454,7 +454,7 @@
     height: 80px;
     }
     .call {
-    width: 25%;
+    width: 45%;
     height: 75px;
     }
     .icon {
@@ -470,17 +470,22 @@
     }   
     p {
     width: 75%;
-    height: 65px;
+    height: 100px;
     }
     .button{
-        width: 100%;
+        width: 85%;
     }
     .w {
-    width: 25% !important;
+    width: 30% !important;
     height: 50px;
     }
+    .w1 {
+    width: 20% !important;
+    height: 45px;
+    }
     .btn{
-    width: 190px;
+    width: 30%;
+    font-size: 14px !important;
     }
     .d {
     height: 75px;
@@ -508,7 +513,7 @@
       height: 215px;  
     }
     .w-1{
-        width: 25%;
+        width: 50%;
         height: 55px;
     }
     .v {
