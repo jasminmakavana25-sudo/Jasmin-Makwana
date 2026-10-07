@@ -14,8 +14,9 @@
      .container-fluid{
         width: 95%;
     }
-    .card-title{
-        width: 100%;
+   .card-title {
+        width: 60%;
+        height: 30px;
     }
     .navbar-brand{
         width: 70%;
@@ -174,7 +175,7 @@
         width: 1040px;
     }
     .card-title{
-        width: 45%;
+        width: 35%;
         height: 30px;
     }
     .navbar-brand{
