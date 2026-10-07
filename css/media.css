@@ -1,4 +1,122 @@
-@media  (max-width: 576px)
+@media (min-width: 320px) and (max-width: 375px)
+{
+    .image-box
+    {
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    .box{
+        width: 100%; 
+    }
+    .navbar{
+        width: 95%;
+    }
+     .container-fluid{
+        width: 95%;
+    }
+   .card-title {
+        width: 80%;
+        height: 30px;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
+    .card-subtitle{
+        width: 99%;
+        font-size: 35px;
+    }
+    .card-text{
+        width: 100%;
+        height: 125px;
+    }
+    .card1{
+        width: 90%;
+        height: 1000px;
+        flex-direction: column !important;
+    }
+    .card-body{
+        height: 445px;
+    }
+    .eng{
+    width: 100%;
+    height: 85px;
+    }
+    .w{
+         width: 55%;
+    }
+    .w-251{
+        width: 60% !important;
+        font-size: 13px !important;
+        height: 40px !important;
+    }
+    .v{
+    width: 100%;
+    }
+    .row {
+    width: 120%;
+    height: 90px;
+    }
+    .height1 {
+    height: 5px;
+    font-style: normal;
+    font-size: 12px;
+    }
+    .button{
+        width: 100%;
+        flex-direction: column !important;
+    }
+    .btn{
+    width: 50%;
+    height: 40px;
+    font-size: 12px !important;
+
+    }
+    .v{
+        flex-direction: column !important;
+        width: 100%;
+        height: 400px;
+    }
+    .h {
+    width: 100%;
+    height: 85px;
+    }
+     .Treated-Patients{
+        width: 50%;
+        height: 75px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+     .call {
+    width: 50%;
+    height: 85px;
+    }
+    .icon {
+    width: 60% !important;
+    height: 45px !important;
+    }
+    .f-1{
+        font-size: 45px;
+    }
+    .review-header{
+        width: 95%;
+        height: 55px;
+    }
+     .w-1{
+        width: 60%;
+        height: 55px;
+    }
+    .card-link{
+        width: 100%;
+    }
+    p{
+    width: 100%;
+    height: 75px;
+    }
+}
+
+@media  (max-width: 576px) and (min-width: 425px)
 {
     .image-box
     {
@@ -33,11 +151,11 @@
         flex-direction: column !important;
     }
     .card-body{
-        height: 635px;
+        height: 445px;
     }
     .eng{
     width: 100%;
-    height: 75px;
+    height: 85px;
     }
     .w{
          width: 55%;
@@ -53,20 +171,29 @@
     height: 62px;
     }
     .height1 {
-    height: 35px;
+    height: 5px;
     font-style: normal;
     font-size: 12px;
     }
     .button{
         flex-direction: column !important;
     }
+    .btn{
+    width: 50%;
+    font-size: 12px !important;
+    }
     .v{
         flex-direction: column !important;
         width: 100%;
+        height: 400px;
+    }
+    .card1{
+    width: 90%;
+    
     }
     .h {
     width: 100%;
-    height: 80px;
+    height: 85px;
     }
      .Treated-Patients{
         width: 50%;
@@ -78,12 +205,9 @@
     }
      .call {
     width: 35%;
-    height: 75px;
+    height: 85px;
     }
-    .eng{
-        width: 100%;
-    }
-     .icon {
+    .icon {
     width: 60% !important;
     height: 45px !important;
     }
@@ -95,8 +219,11 @@
         height: 55px;
     }
      .w-1{
-        width: 20%;
+        width: 60%;
         height: 55px;
+    }
+    .card-link{
+        width: 100%;
     }
 }
 @media (min-width: 577px) and (max-width:767px)
@@ -196,9 +323,6 @@
     }
     .btn-lg{
         width: 30%;
-    }
-    .card-body{
-        height: 410px;
     }
     .v{
         width: 100%;
@@ -345,7 +469,7 @@
     height: 75px;
     }
     .icon {
-    width: 55% !important;
+    width: 65% !important;
     height: 45px !important;
     }
     .eng{
@@ -353,8 +477,9 @@
     }
     /*   */
     p {
-    width: 75%;
-    height: 65px;
+    width: 90%;
+    height: 70px;
+    font-size: 14px;
     }
     /* .button{
         width: 100%;
@@ -411,10 +536,14 @@
     .main-line {
     width: 85%;
     font-size: 14px;
-}
-.f{
+    }
+    .btn{
+    width: 30%;
+    font-size: 14px !important;
+    }
+    .f{
     width: 90%;
-}
+    }
    
 }
 @media (min-width: 1200px) and (max-width: 1400px) 
@@ -455,7 +584,7 @@
     height: 80px;
     }
     .call {
-    width: 25%;
+    width: 45%;
     height: 75px;
     }
     .icon {
@@ -471,17 +600,22 @@
     }   
     p {
     width: 75%;
-    height: 65px;
+    height: 100px;
     }
     .button{
-        width: 100%;
+        width: 85%;
     }
     .w {
-    width: 25% !important;
+    width: 30% !important;
     height: 50px;
     }
+    .w1 {
+    width: 20% !important;
+    height: 45px;
+    }
     .btn{
-    width: 190px;
+    width: 30%;
+    font-size: 14px !important;
     }
     .d {
     height: 75px;
@@ -509,7 +643,7 @@
       height: 215px;  
     }
     .w-1{
-        width: 25%;
+        width: 50%;
         height: 55px;
     }
     .v {

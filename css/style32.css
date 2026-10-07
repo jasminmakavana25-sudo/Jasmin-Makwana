@@ -25,6 +25,7 @@
 }
 .btn{
     width: 130px;
+    
 }
 
 .dropdown:hover .dropdown-menu{
@@ -39,9 +40,9 @@
     width: 97%;
     height: 100px;
 }
-.card1{
+/* .card1{
     width: 90%;
-}
+} */
 .card-subtitle{
     /* width: 99%; */
     font-size: 50px;
@@ -54,10 +55,10 @@
     width: 95%;
 }
 .graypipi{
-    height: 95px;
+    height: 45px;
 }
 .paipi{
-    height: 95px;
+    height: 80px;
 }
 
 
@@ -110,9 +111,13 @@ p{
     opacity: 45%;
 }
 .w-1{
-    width: 40% ;
+    width: 60% ;
 }
-.f{
+.w-2{
+    width: 35%;
+}
+.f2{
+    width: 60%;
     font-size: 14px;
 }
 .paip{
@@ -179,5 +184,6 @@ p{
     text-decoration: none !important;
 }
 .card-link{
+
     height: 25px;
 }
