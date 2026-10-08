@@ -11,7 +11,7 @@
     .navbar{
         width: 95%;
     }
-     .container-fluid{
+    .container-fluid{
         width: 95%;
     }
    .card-title {
@@ -32,7 +32,11 @@
     .card1{
         width: 90%;
         height: 1000px;
-        flex-direction: column !important;
+        flex-direction: column;
+    }
+    .card-1{
+        width: 100%;
+        flex-direction: column;
     }
     .card-body{
         height: 445px;
@@ -151,7 +155,7 @@
         flex-direction: column !important;
     }
     .card-body{
-        height: 445px;
+        height: 475px;
     }
     .eng{
     width: 100%;
@@ -450,7 +454,7 @@
         font-size: 54px;
     }
     .card-text{
-        width: 95%;
+        width: 80%;
         height: 100px;
     }
      .navbar-nav{
@@ -458,7 +462,7 @@
         
     }
     .card-body{
-        width: 605px;
+        width: 65%;
     }
     
      .list-group-item{
@@ -489,7 +493,7 @@
     /* .button{
         width: 100%;
     } */
-    .`51{
+    .w-251{
         width: 30%;
         font-size: 13px !important;
         height: 40px;
@@ -506,7 +510,7 @@
     .d {
     height: 75px;
     }
-     .Treated-Patients{
+    .Treated-Patients{
         width: 50%;
         height: 80px;
     }
@@ -526,20 +530,27 @@
         font-size: 12px;
     }
     .h-1{
-      height: 195px;  
+        width: 100%;
+        height: 195px;  
     }
     .w-1{
         width: 60%;
         height: 55px;
     }
+    .w-2 {
+    width: 30%;
+    }
     .height1{
     width: 100% !important;  
     }
-        .v {
+    .v{
     width: 40%;
     } 
+    .card1{
+        width: 90%;
+    }
     .main-line {
-    width: 85%;
+    width: 90%;
     font-size: 14px;
     }
     .btn{
