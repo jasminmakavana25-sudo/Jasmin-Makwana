@@ -440,9 +440,27 @@
         height: 200px;
     }
     .awerd{
-        width: 100%;
+        width: 65%;
+        height: 60px;
     }
-   
+   .duo-box{
+    width: 100%;
+   }
+   .awerd-icon{
+    width: 25%;
+    height: 60px;
+   }
+   .awerd-iconn{
+    width: 100% !important;
+    height: 50px;
+   }
+   .awrerd-text{
+    width: 50%;
+   }
+   span{
+    font-weight: bold;
+    font-size: smaller;
+   }
 
 
 }
