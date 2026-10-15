@@ -443,6 +443,12 @@
         width: 65%;
         height: 60px;
     }
+    .awerdd{
+        width: 85%;
+    }
+    .awerded{
+        width: 71%;
+    }
    .duo-box{
     width: 100%;
    }
@@ -450,16 +456,25 @@
     width: 25%;
     height: 60px;
    }
-   .awerd-iconn{
-    width: 100% !important;
+   .awerd-icons{
+    width: 75% !important;
     height: 50px;
    }
-   .awrerd-text{
-    width: 50%;
+   .awerd-iconn{
+    
+    width: 95% !important;
+    height: 50px;
    }
+   .awerd-iconm{
+    width: 90% !important;
+   }
+
    span{
     font-weight: bold;
     font-size: smaller;
+   }
+   .vorder{
+    width: 1%;
    }
 
 
