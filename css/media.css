@@ -7,9 +7,15 @@
     }
     .box{
         width: 100%; 
+        height: 100px;
     }
+    .box-1{
+    width: 100% ;
+    height: 60px ;
+    }
+   
     .navbar{
-        width: 80% !important;
+        width: 95% !important;
     }
     .container-fluid{
         width: 95%;
@@ -30,7 +36,7 @@
         height: 125px;
     }
     .card1{
-        width: 90%;
+        width: 100%;
         height: 1000px;
         flex-direction: column !important;
     }
@@ -38,13 +44,9 @@
         width: 100% !important;
         flex-direction: column !important;
     }
-   .box-1{
-    width: 55% ;
-    height: 100px;
-    }
     .card-body{
-        width: 100%;
-        height: 445px;
+        width: 93%;
+        
     }
     .eng{
     width: 100%;
@@ -58,9 +60,7 @@
         font-size: 13px !important;
         height: 40px !important;
     }
-    .v{
-    width: 100%;
-    }
+  
     .row {
     width: 120%;
     height: 90px;
@@ -82,7 +82,7 @@
     }
     .v{
         flex-direction: column !important;
-        width: 100%;
+        width: 95%;
         height: 400px;
     }
     .h {
@@ -112,9 +112,12 @@
         width: 95%;
         height: 55px;
     }
-     .w-1{
+    .w-1{
         width: 60%;
         height: 55px;
+    }
+    .w-2 {
+    width: 25%;
     }
     .card-link{
         width: 100%;
@@ -123,6 +126,61 @@
     width: 100%;
     height: 75px;
     }
+     .box-2{
+        height: 420px;
+    }
+    .list-group{
+        width: 95%;
+        height: 200px;
+       
+    }
+    .haight{
+        width: 100%;
+        height: 335px; 
+        flex-direction: column;
+    }
+    .awerd{
+        width: 66%;
+        height: 60px;
+        border-bottom: 1px;
+    }
+    .awerdd{
+        width: 82%;
+    }
+    .awerded{
+        width: 68%;
+    }
+    .awerdb{
+        width: 78%;
+    }
+   .duo-box{
+    width: 100%;
+   }
+   .awerd-icon{
+    width: 25%;
+    height: 60px;
+   }
+   .awerd-icons{
+    width: 75% !important;
+    height: 50px;
+   }
+   .awerd-iconn{
+    
+    width: 95% !important;
+    height: 50px;
+   }
+   .awerd-iconm{
+    width: 90% !important;
+   }
+
+   span{
+    font-weight: bold;
+    font-size: smaller;
+   }
+   .vorder{
+    width: 1%;
+   }
+
 }
 
 @media  (max-width: 576px) and (min-width: 425px)
@@ -133,7 +191,12 @@
     width: 100%;
     }
     .box{
-        width: 100%; 
+        width: 100%;
+        height: 100px;
+    }
+    .box-1{
+    width: 100% !important;
+    height: 60px !important;
     }
     .navbar{
         width: 95%;
@@ -237,6 +300,55 @@
     .w-2 {
     width: 25%;
     }
+     .box-2{
+        height: 300px;
+    }
+    .list-group{
+        width: 90%;
+        height: 200px;
+    }
+    .haight{
+        width: 100%;
+        height: 200px;
+    }
+    .awerd{
+        width: 65%;
+        height: 60px;
+    }
+    .awerdd{
+        width: 85%;
+    }
+    .awerded{
+        width: 71%;
+    }
+   .duo-box{
+    width: 100%;
+   }
+   .awerd-icon{
+    width: 25%;
+    height: 60px;
+   }
+   .awerd-icons{
+    width: 75% !important;
+    height: 50px;
+   }
+   .awerd-iconn{
+    
+    width: 95% !important;
+    height: 50px;
+   }
+   .awerd-iconm{
+    width: 90% !important;
+   }
+
+   span{
+    font-weight: bold;
+    font-size: smaller;
+   }
+   .vorder{
+    width: 1%;
+   }
+
 }
 @media (min-width: 577px) and (max-width:767px)
 {
@@ -299,6 +411,55 @@
     .w-2 {
     width: 25%;
     }
+     .box-2{
+        height: 300px;
+    }
+    .list-group{
+        width: 90%;
+        height: 200px;
+    }
+    .haight{
+        width: 100%;
+        height: 200px;
+    }
+    .awerd{
+        width: 65%;
+        height: 60px;
+    }
+    .awerdd{
+        width: 85%;
+    }
+    .awerded{
+        width: 71%;
+    }
+   .duo-box{
+    width: 100%;
+   }
+   .awerd-icon{
+    width: 25%;
+    height: 60px;
+   }
+   .awerd-icons{
+    width: 75% !important;
+    height: 50px;
+   }
+   .awerd-iconn{
+    
+    width: 95% !important;
+    height: 50px;
+   }
+   .awerd-iconm{
+    width: 90% !important;
+   }
+
+   span{
+    font-weight: bold;
+    font-size: smaller;
+   }
+   .vorder{
+    width: 1%;
+   }
+
   
 }
 @media (min-width: 768px) and (max-width: 991px)
@@ -309,6 +470,11 @@
     }
     .box{
         width: 100%;
+        height: 170px;
+    }
+    .box-1{
+    width: 100% !important;
+    height: 60px !important;
     }
     .navbar{
         width: 710px;
@@ -489,6 +655,7 @@
     }
     .box{
         width: 100%;
+        
     }
       .navbar{
         width: 1010px;
