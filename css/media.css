@@ -117,7 +117,7 @@
         height: 55px;
     }
     .w-2 {
-    width: 25%;
+    width: 30%;
     }
     .card-link{
         width: 100%;
@@ -132,6 +132,7 @@
     .list-group{
         width: 95%;
         height: 200px;
+        flex-direction: column;
        
     }
     .haight{
@@ -145,29 +146,34 @@
         border-bottom: 1px;
     }
     .awerdd{
-        width: 82%;
+        width: 87%;
     }
     .awerded{
-        width: 68%;
+        width: 70%;
     }
     .awerdb{
-        width: 78%;
+        width: 82%;
     }
    .duo-box{
     width: 100%;
+    flex-direction: column;
    }
    .awerd-icon{
     width: 25%;
     height: 60px;
    }
+   .aawerd-icon{
+    width: 85% !important;
+    height: 48px;
+   }
    .awerd-icons{
-    width: 75% !important;
-    height: 50px;
+    width: 80% !important;
+    height: 45px;
    }
    .awerd-iconn{
     
-    width: 95% !important;
-    height: 50px;
+    width: 100% !important;
+    height: 45px;
    }
    .awerd-iconm{
     width: 90% !important;
@@ -606,41 +612,59 @@
         height: 200px;
     }
     .awerd{
-        width: 65%;
+        width: 100%;
         height: 60px;
     }
     .awerdd{
-        width: 85%;
+        width: 72%;
+    }
+     .awerdb{
+        width: 72%;
     }
     .awerded{
-        width: 71%;
+        width: 65%;
     }
    .duo-box{
     width: 100%;
+    flex-direction: column;
    }
    .awerd-icon{
     width: 25%;
     height: 60px;
    }
+   .aawerd-icon{
+    width: 75% !important;
+    height: 45px;
+   }
    .awerd-icons{
     width: 75% !important;
-    height: 50px;
+    height: 45px;
    }
    .awerd-iconn{
     
-    width: 95% !important;
-    height: 50px;
+    width: 55% !important;
+    height: 45px;
    }
    .awerd-iconm{
-    width: 90% !important;
+    width: 80% !important;
+    height: 45px;
    }
+   .main-border{
 
+    flex-direction: column;
+    gap: 2px;
+    height: 165px;
+   }
    span{
     font-weight: bold;
     font-size: smaller;
    }
    .vorder{
     width: 1%;
+    height: 75px;
+   }
+   .vartical-border{
+
    }
 
 
@@ -797,6 +821,75 @@
     .awerd{
         width: 25%;
     }
+     .list-group{
+        width: 90%;
+        height: 200px;
+    }
+    .haight{
+        flex-direction: row;
+        width: 100%;
+        height: 130px;
+    }
+    .awerd{
+        width: 100%;
+        height: 60px;
+    }
+    .awerdd{
+        width: 72%;
+        height: 65px;
+    }
+     .awerdb{
+        width: 72%;
+    }
+    .awerded{
+        width: 65%;
+    }
+   .duo-box{
+    width: 100%;
+    flex-direction: row;
+   }
+   .awerd-icon{
+    width: 30%;
+    height: 95px;
+   }
+   .aawerd-icon{
+    width: 85% !important;
+    height: 45px;
+   }
+   .awerd-icons{
+    width: 100% !important;
+    height: 45px;
+   }
+   .awerd-iconn{
+    
+    width: 65% !important;
+    height: 47px;
+   }
+   .awerd-iconm{
+    width: 80% !important;
+    height: 45px;
+   }
+   /* .main-border{
+
+    flex-direction: column;
+    gap: 2px;
+    height: 165px;
+   } */
+   span{
+    font-weight: bold;
+    font-size: smaller;
+   }
+   .vorder{
+    width: 1%;
+    height: 75px;
+   }
+   .icon-border{
+    width: 1%;
+    height: 100px;
+   }
+   .awerd-text{
+    height: 100px;
+   }
    
 }
 @media (min-width: 1200px) and (max-width: 1400px) 
@@ -1056,17 +1149,22 @@
     width: 25%;
     height: 60px;
    }
+   .aawerd-icon{
+    width: 80% !important;
+    height: 48px;
+   }
    .awerd-icons{
-    width: 75% !important;
+    width: 65% !important;
     height: 50px;
    }
    .awerd-iconn{
     
-    width: 95% !important;
+    width: 85% !important;
     height: 50px;
    }
    .awerd-iconm{
-    width: 90% !important;
+    width: 50% !important;
+    height: 50px;
    }
 
    span{
