@@ -316,6 +316,7 @@
     .haight{
         width: 100%;
         height: 200px;
+        flex-direction: column !important;
     }
     .awerd{
         width: 65%;
