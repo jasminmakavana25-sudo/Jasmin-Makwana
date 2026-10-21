@@ -307,7 +307,7 @@
     width: 25%;
     }
      .box-2{
-        height: 300px;
+        height: 485px;
     }
     .list-group{
         width: 90%;
@@ -315,37 +315,52 @@
     }
     .haight{
         width: 100%;
-        height: 200px;
+        height: 360px;
         flex-direction: column !important;
     }
     .awerd{
-        width: 65%;
-        height: 60px;
+        width: 100%;
+        height: 36px;
+    }
+    .awerdb{
+        width: 100%;
+        height: 36px;
     }
     .awerdd{
-        width: 85%;
+        width: 72%;
+        height: 53px;
     }
+    
     .awerded{
         width: 71%;
     }
    .duo-box{
     width: 100%;
+    height: 300px;
    }
    .awerd-icon{
-    width: 25%;
-    height: 60px;
+    width: 20%;
+    height: 50px;
+   }
+    .aawerd-icon{
+        width: 75% !important;
+        height: 46px;
+    }
+    .awerd-icon1{
+    width: 27%;
+    /* height: px; */
    }
    .awerd-icons{
     width: 75% !important;
-    height: 50px;
+    height: 45px;
    }
    .awerd-iconn{
     
-    width: 95% !important;
-    height: 50px;
+    width: 75% !important;
+    height: 45px;
    }
    .awerd-iconm{
-    width: 90% !important;
+    width: 29% !important;
    }
 
    span{
