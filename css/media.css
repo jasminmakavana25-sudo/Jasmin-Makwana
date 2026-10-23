@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 426px)
+@media (max-width: 376px) and (min-width: 320px)
 {
     .image-box
     {
@@ -127,13 +127,13 @@
     height: 75px;
     }
      .box-2{
-        height: 420px;
+        height: 460px;
     }
     .list-group{
-        width: 95%;
-        height: 200px;
+        width: 93%;
+        height: 340px;
         flex-direction: column;
-       
+        
     }
     .haight{
         width: 100%;
@@ -159,24 +159,30 @@
     flex-direction: column;
    }
    .awerd-icon{
-    width: 25%;
-    height: 60px;
+    width: 35%;
+    height: 75px;
+    justify-content: end !important;
+   }
+   .awerd-icon1{
+    width: 37%;
+    height: 70px;
    }
    .aawerd-icon{
-    width: 85% !important;
-    height: 48px;
+    width: 60% !important;
+    height: 44px;
    }
    .awerd-icons{
-    width: 80% !important;
-    height: 45px;
+    width: 62% !important;
+    height: 44px;
    }
    .awerd-iconn{
     
-    width: 100% !important;
-    height: 45px;
+    width: 65% !important;
+    height: 44px;
    }
    .awerd-iconm{
-    width: 90% !important;
+    width: 40% !important;
+    height: 67px;
    }
 
    span{
@@ -185,6 +191,210 @@
    }
    .vorder{
     width: 1%;
+   }  
+   .list-item{
+    border-bottom: 1px solid rgb(232, 227, 227);
+   }
+}
+@media (min-width: 375px) and (max-width: 426px)
+{
+    .image-box
+    {
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    .box{
+        width: 100%; 
+        height: 100px;
+    }
+    .box-1{
+    width: 100% ;
+    height: 60px ;
+    }
+   
+    .navbar{
+        width: 95% !important;
+    }
+    .container-fluid{
+        width: 95%;
+    }
+   .card-title {
+        width: 80%;
+        height: 30px;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
+    .card-subtitle{
+        width: 99%;
+        font-size: 35px;
+    }
+    .card-text{
+        width: 100%;
+        height: 125px;
+    }
+    .card1{
+        width: 100%;
+        height: 1000px;
+        flex-direction: column !important;
+    }
+    .card-1{
+        width: 100% !important;
+        flex-direction: column !important;
+    }
+    .card-body{
+        width: 93%;
+        
+    }
+    .eng{
+    width: 100%;
+    height: 85px;
+    }
+    .w{
+         width: 55%;
+    }
+    .w-251{
+        width: 60% !important;
+        font-size: 13px !important;
+        height: 40px !important;
+    }
+  
+    .row {
+    width: 120%;
+    height: 90px;
+    }
+    .height1 {
+    height: 5px;
+    font-style: normal;
+    font-size: 12px;
+    }
+    .button{
+        width: 100%;
+        flex-direction: column !important;
+    }
+    .btn{
+    width: 50%;
+    height: 40px;
+    font-size: 12px !important;
+
+    }
+    .v{
+        flex-direction: column !important;
+        width: 95%;
+        height: 400px;
+    }
+    .h {
+    width: 100%;
+    height: 85px;
+    }
+     .Treated-Patients{
+        width: 50%;
+        height: 75px;
+    }
+    .Treated{
+        width: 75%;
+        height: 22px;
+    }
+     .call {
+    width: 50%;
+    height: 85px;
+    }
+    .icon {
+    width: 60% !important;
+    height: 45px !important;
+    }
+    .f-1{
+        font-size: 45px;
+    }
+    .review-header{
+        width: 95%;
+        height: 55px;
+    }
+    .w-1{
+        width: 60%;
+        height: 55px;
+    }
+    .w-2 {
+    width: 30%;
+    }
+    .card-link{
+        width: 100%;
+    }
+    p{
+    width: 100%;
+    height: 75px;
+    }
+     .box-2{
+        height: 460px;
+    }
+    .list-group{
+        width: 93%;
+        height: 340px;
+        flex-direction: column;
+        
+    }
+    .haight{
+        width: 100%;
+        height: 335px; 
+        flex-direction: column;
+    }
+    .awerd{
+        width: 66%;
+        height: 60px;
+        border-bottom: 1px;
+    }
+    .awerdd{
+        width: 87%;
+    }
+    .awerded{
+        width: 70%;
+    }
+    .awerdb{
+        width: 82%;
+    }
+   .duo-box{
+    width: 100%;
+    flex-direction: column;
+   }
+   .awerd-icon{
+    width: 30%;
+    height: 75px;
+   }
+   .awerd-icon1{
+    width: 30%;
+    height: 70px;
+   }
+   .aawerd-icon{
+    width: 60% !important;
+    height: 44px;
+   }
+   .awerd-text{
+    height: 62px;
+   }
+   .awerd-icons{
+    width: 60% !important;
+    height: 44px;
+   }
+   .awerd-iconn{
+    
+    width: 60% !important;
+    height: 44px;
+   }
+   .awerd-iconm{
+    width: 30% !important;
+    height: 67px;
+   }
+
+   span{
+    font-weight: bold;
+    font-size: smaller;
+   }
+   .vorder{
+    width: 1%;
+   }
+   .list-item{
+    border-bottom: 2px solid rgb(233, 230, 230);
+    
    }
 
 }
@@ -310,7 +520,7 @@
         height: 485px;
     }
     .list-group{
-        width: 89%;
+        width: 95%;
         height: 370px;
     }
     .haight{
@@ -339,37 +549,44 @@
     height: 300px;
    }
    .awerd-icon{
-    width: 18%;
+    width: 30%;
     height: 70px;
    }
     .aawerd-icon{
-        width: 60% !important;
+        width: 52% !important;
         height: 42px;
     }
     .awerd-icon1{
-    width: 26%;
+    width: 30%;
     height: 62px;
+    
    }
    .awerd-icons{
-    width: 65% !important;
+    width: 55% !important;
     height: 45px;
+
    }
    .awerd-iconn{
     
-    width: 75% !important;
+    width: 55% !important;
     height: 45px;
    }
    .awerd-iconm{
-    width: 28% !important;
+    width: 30% !important;
     height: 67px;
+    
    }
-
+   
    span{
     font-weight: bold;
     font-size: smaller;
    }
    .vorder{
     width: 1%;
+   }
+   .list-item{
+    border-bottom: 1px solid rgb(233, 230, 230);
+    height: 75px;
    }
 
 }
