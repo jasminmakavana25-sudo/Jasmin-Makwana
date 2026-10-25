@@ -129,60 +129,57 @@
      .box-2{
         height: 460px;
     }
+    .box1{
+        flex-direction: column;
+    }
     .list-group{
         width: 93%;
         height: 340px;
         flex-direction: column;
         
     }
+    .list-group1{
+        width: 90%;
+        flex-direction: column;
+    }
     .haight{
         width: 100%;
         height: 335px; 
         flex-direction: column;
     }
-    .awerd{
-        width: 66%;
-        height: 60px;
-        border-bottom: 1px;
+    
+    .awerd1{
+        width: 85% !important;
+        height: 50px;
     }
-    .awerdd{
-        width: 87%;
+    .awerd2{
+        width: 85% !important;
+        height: 50px;
     }
-    .awerded{
-        width: 70%;
+     .awerd3{
+        width: 41% !important;
+        height: 48px;
     }
-    .awerdb{
-        width: 82%;
+    .awerd4{
+        width: 41% !important;
+        height: 50px;
     }
-   .duo-box{
-    width: 100%;
-    flex-direction: column;
-   }
-   .awerd-icon{
-    width: 35%;
-    height: 75px;
-    justify-content: end !important;
-   }
+   
    .awerd-icon1{
-    width: 37%;
+    width: 25%;
     height: 70px;
    }
-   .aawerd-icon{
-    width: 60% !important;
-    height: 44px;
+   .awerd-icon2{
+    width: 25% !important;
+    height: 65px;
    }
-   .awerd-icons{
-    width: 62% !important;
-    height: 44px;
-   }
-   .awerd-iconn{
-    
+   .awerd-icon3{
     width: 65% !important;
-    height: 44px;
+    height: 65px;
    }
-   .awerd-iconm{
-    width: 40% !important;
-    height: 67px;
+   .awerd-icon4{
+    width: 65% !important;
+    height: 73px;
    }
 
    span{
@@ -193,6 +190,7 @@
     width: 1%;
    }  
    .list-item{
+    width: 100%;
     border-bottom: 1px solid rgb(232, 227, 227);
    }
 }
