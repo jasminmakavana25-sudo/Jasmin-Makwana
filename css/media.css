@@ -132,6 +132,9 @@
     .box1{
         flex-direction: column;
     }
+    .box2{
+        flex-direction: column;
+    }
     .list-group{
         width: 93%;
         height: 340px;
@@ -180,6 +183,18 @@
    .awerd-icon4{
     width: 40% !important;
     height: 78px;
+   }
+   .awerd-text1{
+        width: 95%;
+   }
+   .awerd-text2{
+    width: 95%;
+   }
+   .awerd-text3{
+    width: 95%;
+   }
+   .awerd-text4{
+    width: 95%;
    }
 
    span{
@@ -886,7 +901,7 @@
         width: 85% !important;
         height: 50px;
     }
-     .awerd3{
+    .awerd3{
         width: 65% !important;
         height: 48px;
     }
@@ -896,11 +911,11 @@
     }
    
    .awerd-icon1{
-    width: 25%;
+    width: 20%;
     height: 70px;
    }
    .awerd-icon2{
-    width: 25% !important;
+    width: 20% !important;
     height: 65px;
    }
    .awerd-icon3{
@@ -938,6 +953,12 @@
    }
    .line1{
     background-color: rgb(221, 214, 214);
+   }
+   .awerd-text1{
+    width: 75%;
+   }
+   .awerd-text2{
+    width: 75%;
    }
    .awerd-text3{
     width: 70%;
@@ -1149,6 +1170,9 @@
     
     width: 65% !important;
     height: 80px;
+   }
+   .awerd-text1{
+    width: 100%;
    }
    .awerd-text3{
     width: 100%;
