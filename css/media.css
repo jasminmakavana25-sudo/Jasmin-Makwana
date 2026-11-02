@@ -1418,8 +1418,8 @@
         flex-direction: row;
     }
     .list-group{
-        width: 95%;
-        height: 200px;
+        width: 90%;
+        height: 120px;
        
     }
     .duo-box{
@@ -1427,11 +1427,11 @@
         flex-direction: row;
     }
     .box-2{
-        height: 500px;
+        height: 370px;
     }
     .awerd1{
-        width: 35%;
-        height: 60px;
+        width: 40% !important;
+        height: 55px;
     }
     .awerd2{
         width: 50%;
@@ -1450,9 +1450,9 @@
     width: 100%;
     justify-content: center;
    }
-   .aerd-icon1{
-    width: 25%;
-    height: 60px;
+   .awerd-icon1{
+    width: 100%;
+    height: 75px;
    }
    .awerd-icon2{
     width: 80% !important;
@@ -1467,6 +1467,26 @@
     width: 85% !important;
     height: 50px;
    }
+   .awerd-text1{
+    width: 100%;
+    height: 75px;
+   }
+    .awerd-text2{
+     width: 100%;
+    height: 75px;
+    }
+    .awerd-text3{
+     width: 100%;
+    height: 75px;
+    }
+    .awerd-text4{
+     width: 100%;
+    height: 75px;
+    }
+    .list-item{
+        width: 100%;
+        height: 75px;
+    }
    span{
     font-weight: bold;
     font-size: smaller;
