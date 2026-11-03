@@ -1298,6 +1298,23 @@
 }
 @media (min-width: 1401px) and (max-width: 1440px)
 {
+    .image-box{
+    width: 100%;
+    height: 900px;
+    background-color: aqua;
+    background-image: url(../../media/showcase-7.webp);
+    background-size: 100% 100%;
+    z-index: 1;
+    position: relative;
+}
+.image-box::before{
+    content: "";
+    width: 100%;
+    height: 900px;
+    background-color: rgba(2, 141, 196, 0.466);
+    z-index: -1;
+    position: absolute;
+}
     .call1{
         font-size: 45px;
     }
@@ -1420,21 +1437,18 @@
     .list-group{
         width: 90%;
         height: 120px;
+        z-index: -1;
        
-    }
-    \box{
-        width: 50%;
-        flex-direction: row;
     }
     .box-2{
         height: 370px;
     }
     .awerd1{
-        width: 40% !important;
+        width: 70% !important;
         height: 55px;
     }
     .awerd2{
-        width: 50% !important;
+        width: 65% !important;
           height: 55px;
     }
     .awerd3{
@@ -1442,23 +1456,23 @@
         height: 55px;
     }
     .awerd4{
-        width: 45% !important;
+        width: 40% !important;
         height: 55px;
     }
    .box1{
-    width: 45%;
+    width: 50%;
     justify-content: center;
    }
    .box2{
-    width: 45%;
+    width: 55%;
     justify-content: center;
    }
    .awerd-icon1{
-    width: 100%;
+    width: 40%;
     height: 75px;
    }
    .awerd-icon2{
-    width: 80% !important;
+    width: 50% !important;
     height: 75px;
    }
    .awerd-icon3{
@@ -1487,8 +1501,9 @@
     height: 65px;
     }
     .list-item{
-        width: 100%;
+        width: 50%;
         height: 75px;
+        border-right: 1px solid rgb(224, 218, 218); 
     }
    span{
     font-weight: bold;
@@ -1498,7 +1513,8 @@
     width: 1%;
    }
    .list-group1{
-    width: 100%;
+    z-index: -1;
+    width: 95%;
     height: 70px;
    }
 }
